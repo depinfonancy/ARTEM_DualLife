@@ -14,40 +14,31 @@ public class SpiritControler : MonoBehaviour
 
 	private bool lookRight = true;
 
+    private string originalWorld;
 
-    private Vector2 screenBounds;
-    private float objectWidth;
-    private float objectHeight;
-    private float x;
-    private float y;
-
-    public Camera MainCamera;
-    public GameObject player;
-    public string originalWorld;
     public float spiritSpeed = 5f;
 	public float jumpForce = 10f;
 
 	void Start()
     {
-		m_rigidbody = GetComponent<Rigidbody2D>();
+        if (gameObject.name.Contains("Nature"))
+        {
+            originalWorld = "Nature";
+        }
+        else
+        {
+            originalWorld = "Industry";
+        }
+
+        m_rigidbody = GetComponent<Rigidbody2D>();
 		m_animator = GetComponent<Animator>();
         m_collider2D = GetComponent<Collider2D>();
-
-        objectWidth = transform.GetComponent<SpriteRenderer>().bounds.extents.x;
-        objectHeight = transform.GetComponent<SpriteRenderer>().bounds.extents.y;
-
-        screenBounds = MainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, MainCamera.transform.position.z));
-        screenBounds.x = screenBounds.x - objectWidth;
-        screenBounds.y = screenBounds.y - objectHeight;
     }
 
     void Update()
     {
         horizontalMove = Input.GetAxisRaw(originalWorld + "Horizontal") * spiritSpeed;
 		verticalMove = Input.GetAxisRaw(originalWorld + "Vertical") * spiritSpeed;
-
-        x = screenBounds.x - Abs(player.transform.position.x - transform.position.x);
-        y = screenBounds.y - Abs(player.transform.position.y - transform.position.y);
     }
 
     void FixedUpdate()
@@ -76,18 +67,6 @@ public class SpiritControler : MonoBehaviour
 		lookRight = !lookRight;
         transform.localScale = scale;
 	}
-
-    float Abs(float v)
-    {
-        if (v < 0)
-        {
-            return -v;
-        }
-        else
-        {
-            return v;
-        }
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
