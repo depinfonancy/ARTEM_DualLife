@@ -15,14 +15,24 @@ public class PlayerControler : MonoBehaviour
     private bool jump = false;
     private bool onGround = true;
 
-    public string originalWorld;
+    private string originalWorld;
+
     public float playerSpeed = 5f;
     public float jumpForce = 10f;
 
 
     void Start()
     {
-		m_rigidbody = GetComponent<Rigidbody2D>();
+        if (gameObject.name.Contains("Nature"))
+        {
+            originalWorld = "Nature";
+        }
+        else
+        {
+            originalWorld = "Industry";
+        }
+
+        m_rigidbody = GetComponent<Rigidbody2D>();
         m_animator = GetComponent<Animator>();
 	}
 
@@ -68,6 +78,17 @@ public class PlayerControler : MonoBehaviour
         scale.x *= -1.0f;
         lookRight = !lookRight;
         transform.localScale = scale;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        onGround = true;
+    }
+    
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        onGround = false;
     }
 
 }
