@@ -39,11 +39,20 @@ public class PlayerControler : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxis(originalWorld + "Horizontal") * playerSpeed;
-        if(Input.GetButtonDown("Jump") && onGround)
+
+        if (m_rigidbody.velocity.y != 0)
+        {
+            onGround = false;
+        }
+        else
+        {
+            onGround = true;
+        }
+
+        if (Input.GetButtonDown("Jump") && onGround)
         {
             jump = true;
         }
-
     }
 
     void FixedUpdate()
@@ -79,16 +88,4 @@ public class PlayerControler : MonoBehaviour
         lookRight = !lookRight;
         transform.localScale = scale;
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        onGround = true;
-    }
-    
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        onGround = false;
-    }
-
 }
