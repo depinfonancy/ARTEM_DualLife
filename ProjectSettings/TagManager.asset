@@ -14,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - HumanPlayer
+  - SpiritPlayer
+  - SpecialWall
   - 
   - 
   - 

@@ -68,20 +68,4 @@ public class SpiritControler : MonoBehaviour
         transform.localScale = scale;
 	}
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.tag == "Player" || other.gameObject.tag == "SpecialWall")
-        {
-            m_collider2D.isTrigger = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player" || other.gameObject.tag == "SpecialWall")
-        {
-            m_collider2D.isTrigger = false;
-        }    
-    }
-
 }
