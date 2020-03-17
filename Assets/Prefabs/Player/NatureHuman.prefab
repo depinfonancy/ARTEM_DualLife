@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6644795416285682808}
   - component: {fileID: 6644795416285682804}
   - component: {fileID: 6644795416285682805}
-  m_Layer: 0
-  m_Name: NatureHuman 1
+  m_Layer: 8
+  m_Name: NatureHuman
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

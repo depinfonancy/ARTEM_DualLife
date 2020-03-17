@@ -82,5 +82,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndustrialHuman
       objectReference: {fileID: 0}
+    - target: {fileID: 6644795416285682815, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9df530aebbe7524e88d9ae34257e488, type: 3}

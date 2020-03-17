@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8004024225120974612}
   - component: {fileID: 8004024225120974615}
   - component: {fileID: 8004024225120974614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: IndustrialSpirit
   m_TagString: Player
   m_Icon: {fileID: 0}
