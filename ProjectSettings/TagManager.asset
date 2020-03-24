@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SpecialWall
+  - Pushable
   layers:
   - Default
   - TransparentFX
