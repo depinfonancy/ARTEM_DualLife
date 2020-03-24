@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8004024225120974600, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
       propertyPath: m_Name
-      value: NatureSpirit
+      value: NatureSpirit Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8004024225120974602, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
