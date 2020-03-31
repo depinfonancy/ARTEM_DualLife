@@ -12,14 +12,20 @@ public class PlayerPush : MonoBehaviour
  // Update is called once per frame
  void Update()
  {
+    if (Input.GetButton("Push")){
+        print("tu appuies sur ton putain de bouton");
+    }
 
   GameObject box = GameObject.FindWithTag("Pushable");
 
   RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance, boxMask);
+    if (hit.collider.gameObject.tag == "Pushable"){
+        print("tu es devant ce putain de bloc");
+    }
 
   RaycastHit2D hit2 = Physics2D.Raycast(transform.position, Vector2.left * transform.localScale.x, distance, boxMask);
 
-  if (hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetButtonDown("Push"))
+  if (hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetButton("Push"))
   {
 
    box = hit.collider.gameObject;
@@ -35,7 +41,7 @@ public class PlayerPush : MonoBehaviour
    box.GetComponent<ObjectPush>().beingPushed = false;
   }
 
-  if (hit2.collider != null && hit2.collider.gameObject.tag == "Pushable" && Input.GetButtonDown("Push"))
+  if (hit2.collider != null && hit2.collider.gameObject.tag == "Pushable" && Input.GetButton("Push"))
   {
 
    box = hit2.collider.gameObject;
