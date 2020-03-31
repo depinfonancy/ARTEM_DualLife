@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8472c20ce94dd2441b2b32713bbd4e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.8
+  distance: 1
   boxMask:
     serializedVersion: 2
     m_Bits: 256
