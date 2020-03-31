@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 9c31fbd2449424484bd2a3a441f3bf69
+guid: 8a831fd242d52491a8bc82789d9850c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4412400775436110376
-    second: t5_0
+      213: 2889689057870041752
+    second: HumainNatureTourner_0
   - first:
-      213: -4085026776095295226
-    second: t5_1
+      213: 1530148619627166375
+    second: HumainNatureTourner_1
   - first:
-      213: 153248895885973983
-    second: t5_2
+      213: -8827344528325152077
+    second: HumainNatureTourner_2
   - first:
-      213: 7839207477005233761
-    second: t5_3
+      213: 725306730999922523
+    second: HumainNatureTourner_3
+  - first:
+      213: -7026706768087857683
+    second: HumainNatureTourner_0
+  - first:
+      213: 7650372181405288284
+    second: HumainNatureTourner_1
+  - first:
+      213: -5226227401967721641
+    second: HumainNatureTourner_2
+  - first:
+      213: 1868810927724825415
+    second: HumainNatureTourner_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,85 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: t5_0
+      name: HumainNatureTourner_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 205
-        width: 1072
-        height: 1198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 580.75
+        height: 941
+      alignment: 9
+      pivot: {x: 0.63483727, y: 0.49039805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d5f8756fd004c2c0800000000000000
-      internalID: -4412400775436110376
+      spriteID: de54a4b6c6f1c7e90800000000000000
+      internalID: -7026706768087857683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: t5_1
+      name: HumainNatureTourner_1
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 203
-        width: 1000
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 580
+        y: 0
+        width: 580.75
+        height: 941
+      alignment: 9
+      pivot: {x: 0.6348372, y: 0.48079613}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60971e06ac11f47c0800000000000000
-      internalID: -4085026776095295226
+      spriteID: c57413037f49b2a60800000000000000
+      internalID: 7650372181405288284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: t5_2
+      name: HumainNatureTourner_2
       rect:
         serializedVersion: 2
-        x: 2179
-        y: 215
-        width: 954
-        height: 1193
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1160
+        y: 0
+        width: 580.75
+        height: 941
+      alignment: 9
+      pivot: {x: 0.6555812, y: 0.48399678}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd911811f03702200800000000000000
-      internalID: 153248895885973983
+      spriteID: 7532d4e1ed5b877b0800000000000000
+      internalID: -5226227401967721641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: t5_3
+      name: HumainNatureTourner_3
       rect:
         serializedVersion: 2
-        x: 3160
-        y: 205
-        width: 899
-        height: 1203
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1740
+        y: 0
+        width: 580.75
+        height: 941
+      alignment: 9
+      pivot: {x: 0.6296508, y: 0.47759548}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16eab7b9aa57acc60800000000000000
-      internalID: 7839207477005233761
+      spriteID: 74b086b23a95fe910800000000000000
+      internalID: 1868810927724825415
       vertices: []
       indices: 
       edges: []
