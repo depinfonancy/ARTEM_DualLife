@@ -6,26 +6,28 @@ public class PlayerPush : MonoBehaviour
 
  public float distance = 1f;
  public LayerMask boxMask;
-
+ private bool canPush = false;
  GameObject box;
 
  // Update is called once per frame
  void Update()
  {
     if (Input.GetButton("Push")){
-        print("tu appuies sur ton putain de bouton");
+        canPush = true;
+        Debug.Log("tu appuies sur E");
     }
+    else{
+        canPush = false;
+    }}
 
+
+void OnCollisionEnter2D(Collision2D coll)
+{
   GameObject box = GameObject.FindWithTag("Pushable");
-
   RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance, boxMask);
-    if (hit.collider.gameObject.tag == "Pushable"){
-        print("tu es devant ce putain de bloc");
-    }
-
   RaycastHit2D hit2 = Physics2D.Raycast(transform.position, Vector2.left * transform.localScale.x, distance, boxMask);
 
-  if (hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetButton("Push"))
+  if (hit.collider != null && canPush)
   {
 
    box = hit.collider.gameObject;
@@ -35,13 +37,13 @@ public class PlayerPush : MonoBehaviour
    print("tu peux pousser la boîte");
 
   }
-  else if (Input.GetButtonUp("Push"))
+  else if (!canPush)
   {
    box.GetComponent<FixedJoint2D>().enabled = false;
    box.GetComponent<ObjectPush>().beingPushed = false;
   }
 
-  if (hit2.collider != null && hit2.collider.gameObject.tag == "Pushable" && Input.GetButton("Push"))
+  if (hit2.collider != null && hit2.collider.gameObject.tag == "Pushable" && canPush)
   {
 
    box = hit2.collider.gameObject;
@@ -50,22 +52,10 @@ public class PlayerPush : MonoBehaviour
    box.GetComponent<ObjectPush>().beingPushed = true;
 
   }
-  else if (Input.GetButtonUp("Push"))
+  else if (!canPush)
   {
    box.GetComponent<FixedJoint2D>().enabled = false;
    box.GetComponent<ObjectPush>().beingPushed = false;
-  }
- }
-
-
- void OnDrawGizmos()
- {
-  Gizmos.color = Color.yellow;
-
-  Gizmos.DrawLine(transform.position, (Vector2)transform.position + Vector2.right * transform.localScale.x * distance);
-
-  Gizmos.color = Color.red;
-
-  Gizmos.DrawLine(transform.position, (Vector2)transform.position + Vector2.left * transform.localScale.x * distance);
- }
 }
+
+}}

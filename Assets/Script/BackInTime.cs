@@ -10,7 +10,6 @@ public class BackInTime : MonoBehaviour
     private void Start()
     {
         m_collider2D = GetComponent<Collider2D>();
-        
     }
 
     private void Update()
@@ -24,10 +23,8 @@ public class BackInTime : MonoBehaviour
         if (other.gameObject.layer == 8)
         {
             Debug.Log("Need to be revive ...");
-            other.gameObject.GetComponent<Rigidbody2D>() = 
+            other.gameObject.GetComponent<Rigidbody2D>();
             other.gameObject.GetComponent<PlayerControler>().enabled = false;
-            
-            currentSpiritPlayer.GetComponent<SpiritControler>().enabled = false;
         }
     }
 
