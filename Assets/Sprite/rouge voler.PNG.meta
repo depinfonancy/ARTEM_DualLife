@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: f37989dc6661045cc83b7cc6fb4c72b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9188939960182417101
+    second: rouge voler_0
+  - first:
+      213: -8811703866209019078
+    second: rouge voler_1
+  - first:
+      213: -3847284930641147366
+    second: rouge voler_2
+  - first:
+      213: 6185680702182330261
+    second: rouge voler_3
+  - first:
+      213: -7427504475180432438
+    second: rouge voler_4
+  - first:
+      213: 4951737486903432228
+    second: rouge voler_5
+  - first:
+      213: -4943963494075069712
+    second: rouge voler_6
+  - first:
+      213: 4582596646481933129
+    second: rouge voler_7
+  - first:
+      213: 7099549274860553042
+    second: rouge voler_8
+  - first:
+      213: -1189835259841104028
+    second: rouge voler_9
+  - first:
+      213: 2571988084374146693
+    second: rouge voler_10
+  - first:
+      213: 9120916265786450306
+    second: rouge voler_11
+  - first:
+      213: 2643805917179063416
+    second: rouge voler_12
+  - first:
+      213: -1008647959179425822
+    second: rouge voler_13
+  - first:
+      213: -1154731037996814881
+    second: rouge voler_14
+  - first:
+      213: -5675462427355210064
+    second: rouge voler_15
+  - first:
+      213: 5500568194266921534
+    second: rouge voler_16
+  - first:
+      213: 4850683141192959784
+    second: rouge voler_17
+  - first:
+      213: 8885292638584829524
+    second: rouge voler_18
+  - first:
+      213: 4530510026790156095
+    second: rouge voler_19
+  - first:
+      213: 7463486815255221403
+    second: rouge voler_20
+  - first:
+      213: 1987668722104504086
+    second: rouge voler_21
+  - first:
+      213: 8496435917675144486
+    second: rouge voler_22
+  - first:
+      213: -8640206629751826272
+    second: rouge voler_23
+  - first:
+      213: -7601978089972494345
+    second: rouge voler_24
+  - first:
+      213: -8280114476189847753
+    second: rouge voler_0
+  - first:
+      213: 4799732036947082791
+    second: rouge voler_1
+  - first:
+      213: -7941101345174938266
+    second: rouge voler_2
+  - first:
+      213: -4234463631472408831
+    second: rouge voler_3
+  - first:
+      213: 5226977231551388830
+    second: rouge voler_4
+  - first:
+      213: -4161062245074282817
+    second: rouge voler_5
+  - first:
+      213: -9017092188740274398
+    second: rouge voler_6
+  - first:
+      213: 7242920955199789210
+    second: rouge voler_7
+  - first:
+      213: 6103915170102614230
+    second: rouge voler_8
+  - first:
+      213: 3379949802382807692
+    second: rouge voler_9
+  - first:
+      213: 1365506621302769414
+    second: rouge voler_10
+  - first:
+      213: -5039818512189758051
+    second: rouge voler_11
+  - first:
+      213: 6591767571024573463
+    second: rouge voler_12
+  - first:
+      213: -261653081705826331
+    second: rouge voler_13
+  - first:
+      213: 1887498080751277695
+    second: rouge voler_14
+  - first:
+      213: 2235695258657603014
+    second: rouge voler_15
+  - first:
+      213: -449665507906328631
+    second: rouge voler_16
+  - first:
+      213: -3547598571501146408
+    second: rouge voler_17
+  - first:
+      213: 5219855476071391523
+    second: rouge voler_18
+  - first:
+      213: 5368890912958521234
+    second: rouge voler_19
+  - first:
+      213: -8211390510594479172
+    second: rouge voler_20
+  - first:
+      213: -8598362244004674314
+    second: rouge voler_21
+  - first:
+      213: 2306828414193496156
+    second: rouge voler_22
+  - first:
+      213: -1524688006454545228
+    second: rouge voler_23
+  - first:
+      213: -5653765300949027571
+    second: rouge voler_24
+  - first:
+      213: 6109485760746807586
+    second: rouge voler_25
+  - first:
+      213: 4196061113693221583
+    second: rouge voler_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rouge voler_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 229
+        width: 628
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6de023fefe046c0800000000000000
+      internalID: -4161062245074282817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rouge voler_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 231
+        width: 647
+        height: 810
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227bf2fcd6adcd280800000000000000
+      internalID: -9017092188740274398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rouge voler_7
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 213
+        width: 674
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a989aeeeb36048460800000000000000
+      internalID: 7242920955199789210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rouge voler_8
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 206
+        width: 694
+        height: 818
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8951dd18675b450800000000000000
+      internalID: 6103915170102614230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rouge voler_9
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 213
+        width: 674
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82dda1007ef7ee20800000000000000
+      internalID: 3379949802382807692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
