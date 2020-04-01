@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 64fef3c94d7c94ac9a631140ea99e98b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5387597581827146067
+    second: HerbePousse_0
+  - first:
+      213: 8500707457069366552
+    second: HerbePousse_1
+  - first:
+      213: 476049374911863965
+    second: HerbePousse_2
+  - first:
+      213: -5439778206452221196
+    second: HerbePousse_3
+  - first:
+      213: 1120015051925777407
+    second: HerbePousse_4
+  - first:
+      213: 5054436476154127118
+    second: HerbePousse_5
+  - first:
+      213: 5058308240188431668
+    second: HerbePousse_6
+  - first:
+      213: 6814241206244256207
+    second: HerbePousse_7
+  - first:
+      213: -5087231891929278795
+    second: HerbePousse_8
+  - first:
+      213: -1360408339522701845
+    second: HerbePousse_9
+  - first:
+      213: -2121573423960223612
+    second: HerbePousse_10
+  - first:
+      213: 6651303800867607379
+    second: HerbePousse_11
+  - first:
+      213: 8485821485039598232
+    second: HerbePousse_12
+  - first:
+      213: -8311956205899170633
+    second: HerbePousse_13
+  - first:
+      213: 2098762331338716928
+    second: HerbePousse_14
+  - first:
+      213: -2850418255256375570
+    second: HerbePousse_15
+  - first:
+      213: 5782764469025142139
+    second: HerbePousse_16
+  - first:
+      213: -6129339986160593679
+    second: HerbePousse_17
+  - first:
+      213: -5309070297277367361
+    second: HerbePousse_18
+  - first:
+      213: 2469835119946296516
+    second: HerbePousse_19
+  - first:
+      213: 4073670226549837281
+    second: HerbePousse_20
+  - first:
+      213: 1688274588908839994
+    second: HerbePousse_21
+  - first:
+      213: 461341959401168264
+    second: HerbePousse_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HerbePousse_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2402
+        width: 218
+        height: 325
+      alignment: 9
+      pivot: {x: 0.50839436, y: 0.22409105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3518f89b47794ca40800000000000000
+      internalID: 5387597581827146067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2400
+        width: 230
+        height: 354
+      alignment: 9
+      pivot: {x: 0.47222716, y: 0.22482179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d322eb46498f570800000000000000
+      internalID: 8500707457069366552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2399
+        width: 272
+        height: 381
+      alignment: 9
+      pivot: {x: 0.47686812, y: 0.21100542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c1b2f52644b9600800000000000000
+      internalID: 476049374911863965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2391
+        width: 311
+        height: 403
+      alignment: 9
+      pivot: {x: 0.4443648, y: 0.21507214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faf08bda860284b0800000000000000
+      internalID: -5439778206452221196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2402
+        width: 313
+        height: 413
+      alignment: 9
+      pivot: {x: 0.4999996, y: 0.19531132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb602171c71b8f00800000000000000
+      internalID: 1120015051925777407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_5
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2413
+        width: 332
+        height: 413
+      alignment: 9
+      pivot: {x: 0.50473756, y: 0.1610335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a1fc0237f42640800000000000000
+      internalID: 5054436476154127118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_6
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 2390
+        width: 402
+        height: 451
+      alignment: 9
+      pivot: {x: 0.47652242, y: 0.20354508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ddcdc5b88b23640800000000000000
+      internalID: 5058308240188431668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_7
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 2390
+        width: 444
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5212562, y: 0.18158774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a400164c019e50800000000000000
+      internalID: 6814241206244256207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_8
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 2401
+        width: 495
+        height: 519
+      alignment: 9
+      pivot: {x: 0.52224344, y: 0.15449539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6548f2c858669b0800000000000000
+      internalID: -5087231891929278795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1676
+        width: 501
+        height: 574
+      alignment: 9
+      pivot: {x: 0.5533737, y: 0.14375566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5354da2dbde1de0800000000000000
+      internalID: -1360408339522701845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_10
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1691
+        width: 533
+        height: 534
+      alignment: 9
+      pivot: {x: 0.5265601, y: 0.12590753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48011f32638ae82e0800000000000000
+      internalID: -2121573423960223612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_11
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1709
+        width: 540
+        height: 546
+      alignment: 9
+      pivot: {x: 0.5116514, y: 0.13412935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3535be7119d2e4c50800000000000000
+      internalID: 6651303800867607379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_12
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1720
+        width: 535
+        height: 531
+      alignment: 9
+      pivot: {x: 0.5235205, y: 0.11490724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab92b4ea1b3c570800000000000000
+      internalID: 8485821485039598232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_13
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1712
+        width: 527
+        height: 538
+      alignment: 9
+      pivot: {x: 0.51492316, y: 0.12868889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb6ce8edff5ac80800000000000000
+      internalID: -8311956205899170633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_14
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1690
+        width: 539
+        height: 572
+      alignment: 9
+      pivot: {x: 0.511673, y: 0.16450939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0073a6b783d402d10800000000000000
+      internalID: 2098762331338716928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 961
+        width: 547
+        height: 580
+      alignment: 9
+      pivot: {x: 0.52247196, y: 0.11498623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeea722f2b74178d0800000000000000
+      internalID: -2850418255256375570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_16
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 944
+        width: 543
+        height: 644
+      alignment: 9
+      pivot: {x: 0.5113187, y: 0.14370482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b757efb65a1804050800000000000000
+      internalID: 5782764469025142139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_17
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 955
+        width: 545
+        height: 649
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.118039735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4dc49d1c530faa0800000000000000
+      internalID: -6129339986160593679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_18
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 953
+        width: 547
+        height: 674
+      alignment: 9
+      pivot: {x: 0.5262172, y: 0.11700928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb743b71b46256b0800000000000000
+      internalID: -5309070297277367361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_19
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 942
+        width: 519
+        height: 705
+      alignment: 9
+      pivot: {x: 0.5197368, y: 0.12222615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccee22b4fd964220800000000000000
+      internalID: 2469835119946296516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_20
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 961
+        width: 524
+        height: 692
+      alignment: 9
+      pivot: {x: 0.519548, y: 0.10032663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed8691ec75988830800000000000000
+      internalID: 4073670226549837281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_21
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 148
+        width: 587
+        height: 734
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.15360637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ea333bc4fd6710800000000000000
+      internalID: 1688274588908839994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HerbePousse_22
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 151
+        width: 535
+        height: 731
+      alignment: 9
+      pivot: {x: 0.50979906, y: 0.15218481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dd61a5114076600800000000000000
+      internalID: 461341959401168264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 532e54910574842689766bae1e634b82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2560645677094365007
+    second: PlanteMange_0
+  - first:
+      213: -1603121004743901425
+    second: PlanteMange_1
+  - first:
+      213: 8619689891480400873
+    second: PlanteMange_2
+  - first:
+      213: -5573039929663764886
+    second: PlanteMange_3
+  - first:
+      213: 5719293985285160076
+    second: PlanteMange_4
+  - first:
+      213: 2977539040528988611
+    second: PlanteMange_5
+  - first:
+      213: -5338873800858713851
+    second: PlanteMange_6
+  - first:
+      213: -5006350406015359956
+    second: PlanteMange_7
+  - first:
+      213: 2351170412751324553
+    second: PlanteMange_8
+  - first:
+      213: -3732171765755604006
+    second: PlanteMange_9
+  - first:
+      213: -2517131752011211889
+    second: PlanteMange_10
+  - first:
+      213: -4295844780125535677
+    second: PlanteMange_11
+  - first:
+      213: 353594113382564348
+    second: PlanteMange_12
+  - first:
+      213: -3713000977223660326
+    second: PlanteMange_13
+  - first:
+      213: 3181158776625644751
+    second: PlanteMange_14
+  - first:
+      213: 3696622272175971470
+    second: PlanteMange_15
+  - first:
+      213: 3739143722099168912
+    second: PlanteMange_16
+  - first:
+      213: 4702106520771997211
+    second: PlanteMange_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlanteMange_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7536
+        width: 1230
+        height: 1455
+      alignment: 9
+      pivot: {x: 0.7403609, y: 0.04078709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b89625d252c67cd0800000000000000
+      internalID: -2560645677094365007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_1
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 7530
+        width: 1224
+        height: 1466
+      alignment: 9
+      pivot: {x: 0.73187774, y: 0.04019927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fb54c90f190c9e0800000000000000
+      internalID: -1603121004743901425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_2
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 7530
+        width: 1212
+        height: 1437
+      alignment: 9
+      pivot: {x: 0.73417336, y: 0.04737925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f6b7894a4f9770800000000000000
+      internalID: 8619689891480400873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_3
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 7536
+        width: 1220
+        height: 1449
+      alignment: 9
+      pivot: {x: 0.7374844, y: 0.03480478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66c25116b598a2b0800000000000000
+      internalID: -5573039929663764886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5768
+        width: 1230
+        height: 1460
+      alignment: 9
+      pivot: {x: 0.7355537, y: 0.05045952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c33f6d3930f5f40800000000000000
+      internalID: 5719293985285160076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_5
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 5774
+        width: 1224
+        height: 1437
+      alignment: 9
+      pivot: {x: 0.7367085, y: 0.04326437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9769f4bf7525920800000000000000
+      internalID: 2977539040528988611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_6
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 5774
+        width: 1224
+        height: 1425
+      alignment: 9
+      pivot: {x: 0.7367085, y: 0.05186609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5014d2f809288e5b0800000000000000
+      internalID: -5338873800858713851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_7
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 5780
+        width: 1220
+        height: 1401
+      alignment: 9
+      pivot: {x: 0.7277912, y: 0.04418963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24625c94ded58ab0800000000000000
+      internalID: -5006350406015359956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4018
+        width: 1218
+        height: 1425
+      alignment: 9
+      pivot: {x: 0.72816527, y: 0.051866263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985837a880901a020800000000000000
+      internalID: 2351170412751324553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_9
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4024
+        width: 1206
+        height: 1442
+      alignment: 9
+      pivot: {x: 0.73043555, y: 0.048948504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3156d8d89a43cc0800000000000000
+      internalID: -3732171765755604006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_10
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 4024
+        width: 1183
+        height: 1413
+      alignment: 9
+      pivot: {x: 0.7199212, y: 0.048060454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd384020a511dd0800000000000000
+      internalID: -2517131752011211889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_11
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 4024
+        width: 1188
+        height: 1437
+      alignment: 9
+      pivot: {x: 0.70406413, y: 0.04737908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c66ecee71264c0800000000000000
+      internalID: -4295844780125535677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2273
+        width: 1188
+        height: 1402
+      alignment: 9
+      pivot: {x: 0.7090411, y: 0.048732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf146d209f738e400800000000000000
+      internalID: 353594113382564348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_13
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2273
+        width: 1171
+        height: 1420
+      alignment: 9
+      pivot: {x: 0.7171255, y: 0.04196021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcc7e59845c87cc0800000000000000
+      internalID: -3713000977223660326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_14
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 2279
+        width: 1159
+        height: 1414
+      alignment: 9
+      pivot: {x: 0.7193733, y: 0.052561715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc443e68d0fb52c20800000000000000
+      internalID: 3181158776625644751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_15
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 2273
+        width: 1171
+        height: 1408
+      alignment: 9
+      pivot: {x: 0.71207625, y: 0.04645556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c98d9fe5a0d4330800000000000000
+      internalID: 3696622272175971470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_16
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 222
+        width: 1212
+        height: 1419
+      alignment: 9
+      pivot: {x: 0.70978045, y: 0.0458048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0965ad7876b14e330800000000000000
+      internalID: 3739143722099168912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanteMange_17
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 222
+        width: 1200
+        height: 1419
+      alignment: 9
+      pivot: {x: 0.70695066, y: 0.054138657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ea9a2c7fc314140800000000000000
+      internalID: 4702106520771997211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 425ccab6639b849679c4616273914420
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2662025737123858009
+    second: ArbrePousse_0
+  - first:
+      213: 7595371284355317268
+    second: ArbrePousse_1
+  - first:
+      213: -3580298371886170451
+    second: ArbrePousse_2
+  - first:
+      213: -7232335329540057271
+    second: ArbrePousse_3
+  - first:
+      213: 5834808181405929362
+    second: ArbrePousse_4
+  - first:
+      213: 6711208674267391938
+    second: ArbrePousse_5
+  - first:
+      213: 8588261965818785429
+    second: ArbrePousse_6
+  - first:
+      213: 7989648023585792748
+    second: ArbrePousse_7
+  - first:
+      213: 4937434297340076794
+    second: ArbrePousse_8
+  - first:
+      213: -4584360798847819916
+    second: ArbrePousse_9
+  - first:
+      213: 6298459847856173294
+    second: ArbrePousse_10
+  - first:
+      213: -1691420902993819525
+    second: ArbrePousse_11
+  - first:
+      213: 3547152462047066745
+    second: ArbrePousse_12
+  - first:
+      213: 7734205436223408188
+    second: ArbrePousse_13
+  - first:
+      213: 6650737248451109651
+    second: ArbrePousse_14
+  - first:
+      213: -79398588993609497
+    second: ArbrePousse_15
+  - first:
+      213: 1955105376740787780
+    second: ArbrePousse_16
+  - first:
+      213: -2683685191437779290
+    second: ArbrePousse_17
+  - first:
+      213: -3696943910332031167
+    second: ArbrePousse_18
+  - first:
+      213: 5482653889439048356
+    second: ArbrePousse_19
+  - first:
+      213: 8456038991004000413
+    second: ArbrePousse_20
+  - first:
+      213: 1343179182513993019
+    second: ArbrePousse_21
+  - first:
+      213: 2924155798154346519
+    second: ArbrePousse_22
+  - first:
+      213: 7314217887471793374
+    second: ArbrePousse_23
+  - first:
+      213: -8440725090892399318
+    second: ArbrePousse_24
+  - first:
+      213: -3183721274072584728
+    second: ArbrePousse_25
+  - first:
+      213: -5246143755173701961
+    second: ArbrePousse_26
+  - first:
+      213: -4406368305847435849
+    second: ArbrePousse_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbrePousse_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4720
+        width: 607
+        height: 409
+      alignment: 9
+      pivot: {x: 0.52380943, y: 0.2762072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956073ccd4a61f420800000000000000
+      internalID: 2662025737123858009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4739
+        width: 583
+        height: 385
+      alignment: 9
+      pivot: {x: 0.4669472, y: 0.22471717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e733de0fd286960800000000000000
+      internalID: 7595371284355317268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_2
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4744
+        width: 597
+        height: 356
+      alignment: 9
+      pivot: {x: 0.48386136, y: 0.24288975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeb0d99999305ec0800000000000000
+      internalID: -3580298371886170451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_3
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 4753
+        width: 598
+        height: 362
+      alignment: 9
+      pivot: {x: 0.4677763, y: 0.23384221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d14a165591ab90800000000000000
+      internalID: -7232335329540057271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_4
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 4744
+        width: 597
+        height: 433
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23298232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f4e39702769f050800000000000000
+      internalID: 5834808181405929362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_5
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 4744
+        width: 607
+        height: 549
+      alignment: 9
+      pivot: {x: 0.48412684, y: 0.1577771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76a335bb0032d50800000000000000
+      internalID: 6711208674267391938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_6
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 4734
+        width: 597
+        height: 646
+      alignment: 9
+      pivot: {x: 0.48386136, y: 0.14950477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e60ae51c2af2770800000000000000
+      internalID: 8588261965818785429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_7
+      rect:
+        serializedVersion: 2
+        x: 4218
+        y: 4724
+        width: 607
+        height: 752
+      alignment: 9
+      pivot: {x: 0.46825367, y: 0.14125419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2ab36eb8ee0ee60800000000000000
+      internalID: 7989648023585792748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3429
+        width: 650
+        height: 857
+      alignment: 9
+      pivot: {x: 0.5222344, y: 0.10088877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af229c2755a458440800000000000000
+      internalID: 4937434297340076794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_9
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 3429
+        width: 602
+        height: 1006
+      alignment: 9
+      pivot: {x: 0.4679904, y: 0.07859338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f137674241160c0800000000000000
+      internalID: -4584360798847819916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_10
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3433
+        width: 607
+        height: 1108
+      alignment: 9
+      pivot: {x: 0.48412704, y: 0.07390851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee037876cdf986750800000000000000
+      internalID: 6298459847856173294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_11
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 3438
+        width: 592
+        height: 1171
+      alignment: 9
+      pivot: {x: 0.51627535, y: 0.0927184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78026776add688e0800000000000000
+      internalID: -1691420902993819525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_12
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3433
+        width: 597
+        height: 1248
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.063805215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab770ee540a3130800000000000000
+      internalID: 3547152462047066745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_13
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3433
+        width: 597
+        height: 1258
+      alignment: 9
+      pivot: {x: 0.5322777, y: 0.059613783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38cdfdddda655b60800000000000000
+      internalID: 7734205436223408188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_14
+      rect:
+        serializedVersion: 2
+        x: 4054
+        y: 3433
+        width: 597
+        height: 1248
+      alignment: 9
+      pivot: {x: 0.50806934, y: 0.071525574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31323645a4a2c4c50800000000000000
+      internalID: 6650737248451109651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1877
+        width: 641
+        height: 1258
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06344328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06e5b676be5eef0800000000000000
+      internalID: -79398588993609497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_16
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1873
+        width: 670
+        height: 1271
+      alignment: 9
+      pivot: {x: 0.52157056, y: 0.0603278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44647174bfde12b10800000000000000
+      internalID: 1955105376740787780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_17
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1882
+        width: 645
+        height: 1291
+      alignment: 9
+      pivot: {x: 0.5149378, y: 0.055944607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeff538982a1cad0800000000000000
+      internalID: -2683685191437779290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_18
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1882
+        width: 617
+        height: 1364
+      alignment: 9
+      pivot: {x: 0.49219224, y: 0.058518842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f9d1ec911d1bcc0800000000000000
+      internalID: -3696943910332031167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_19
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1877
+        width: 616
+        height: 1422
+      alignment: 9
+      pivot: {x: 0.5078204, y: 0.05619913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2ad620aac461c40800000000000000
+      internalID: 5482653889439048356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_20
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 1873
+        width: 641
+        height: 1488
+      alignment: 9
+      pivot: {x: 0.51503086, y: 0.0532211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9065a909a2e95570800000000000000
+      internalID: 8456038991004000413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_21
+      rect:
+        serializedVersion: 2
+        x: 4054
+        y: 1887
+        width: 679
+        height: 1546
+      alignment: 9
+      pivot: {x: 0.5, y: 0.051286113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35327b995ee3a210800000000000000
+      internalID: 1343179182513993019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 56
+        width: 723
+        height: 1696
+      alignment: 9
+      pivot: {x: 0.53331566, y: 0.051205166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71083e0a430b49820800000000000000
+      internalID: 2924155798154346519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_23
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 71
+        width: 742
+        height: 1749
+      alignment: 9
+      pivot: {x: 0.56492513, y: 0.042769916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed470909a62518560800000000000000
+      internalID: 7314217887471793374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_24
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 66
+        width: 742
+        height: 1792
+      alignment: 9
+      pivot: {x: 0.5779101, y: 0.045676462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2db1ae20458cda80800000000000000
+      internalID: -8440725090892399318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_25
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 76
+        width: 810
+        height: 1772
+      alignment: 9
+      pivot: {x: 0.5892117, y: 0.037830018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edac0b8e5621d3d0800000000000000
+      internalID: -3183721274072584728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_26
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 80
+        width: 829
+        height: 1778
+      alignment: 9
+      pivot: {x: 0.5755449, y: 0.047518093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6dc38cc04f137b0800000000000000
+      internalID: -5246143755173701961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbrePousse_27
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 66
+        width: 882
+        height: 1802
+      alignment: 9
+      pivot: {x: 0.5764675, y: 0.045524318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd7c6c2f5f69d2c0800000000000000
+      internalID: -4406368305847435849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
