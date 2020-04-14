@@ -703,6 +703,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1221277030}
     m_Modifications:
+    - target: {fileID: 6644795416285682810, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2889689057870041752, guid: 8a831fd242d52491a8bc82789d9850c3,
+        type: 3}
     - target: {fileID: 6644795416285682811, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -757,6 +763,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644795416285682811, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644795416285682811, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6644795416285682815, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
@@ -1685,6 +1701,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndustrialHuman
       objectReference: {fileID: 0}
+    - target: {fileID: 2213072735739372102, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7387721434138927369, guid: cb23e0e1735454388994305600e93b58,
+        type: 3}
     - target: {fileID: 2213072735739372103, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1739,6 +1761,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213072735739372103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213072735739372103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593a263c5107b7f47af6526d49d5517c, type: 3}
@@ -1903,6 +1935,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndustrialSpirit
       objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974602, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4951737486903432228, guid: f37989dc6661045cc83b7cc6fb4c72b4,
+        type: 3}
     - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1957,6 +1995,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 753e0b002ab8eb1448800cdc97289223, type: 3}
