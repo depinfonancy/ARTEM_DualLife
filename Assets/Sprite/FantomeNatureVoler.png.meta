@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 126325e20211142edaf02033c26be58c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2474428805082621234
+    second: FantomeNatureVoler_0
+  - first:
+      213: 4249465378322574628
+    second: FantomeNatureVoler_1
+  - first:
+      213: 397195568962340949
+    second: FantomeNatureVoler_2
+  - first:
+      213: 6891893888552420818
+    second: FantomeNatureVoler_3
+  - first:
+      213: -6657396559495726474
+    second: FantomeNatureVoler_4
+  - first:
+      213: -8019561237317251199
+    second: FantomeNatureVoler_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FantomeNatureVoler_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 180
+        width: 625
+        height: 857
+      alignment: 9
+      pivot: {x: 0.6136602, y: 0.40053058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca5e03ac1019add0800000000000000
+      internalID: -2474428805082621234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FantomeNatureVoler_1
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 157
+        width: 597
+        height: 918
+      alignment: 9
+      pivot: {x: 0.6031257, y: 0.39682254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dec383f3229fa30800000000000000
+      internalID: 4249465378322574628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FantomeNatureVoler_2
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 229
+        width: 617
+        height: 834
+      alignment: 9
+      pivot: {x: 0.5844317, y: 0.34668124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5580c5af34f138500800000000000000
+      internalID: 397195568962340949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FantomeNatureVoler_3
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 208
+        width: 657
+        height: 867
+      alignment: 9
+      pivot: {x: 0.58649933, y: 0.39075327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d54ad01afce4af50800000000000000
+      internalID: 6891893888552420818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FantomeNatureVoler_4
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 227
+        width: 649
+        height: 840
+      alignment: 9
+      pivot: {x: 0.609457, y: 0.3590521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a795ef91d2c93a0800000000000000
+      internalID: -6657396559495726474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FantomeNatureVoler_5
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 232
+        width: 642
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5663903, y: 0.34873217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f863b4b8bc4b090800000000000000
+      internalID: -8019561237317251199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

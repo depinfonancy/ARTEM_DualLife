@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 91e004341497542829424fa982a0b0e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8761966935778068071
+    second: HumainNatureSauter_0
+  - first:
+      213: 2526918679863177750
+    second: HumainNatureSauter_1
+  - first:
+      213: -4433533434638706365
+    second: HumainNatureSauter_2
+  - first:
+      213: 7408175747212668951
+    second: HumainNatureSauter_3
+  - first:
+      213: -7842450284785915876
+    second: HumainNatureSauter_4
+  - first:
+      213: -8517176224816662604
+    second: HumainNatureSauter_5
+  - first:
+      213: -3703599618925554211
+    second: HumainNatureSauter_6
+  - first:
+      213: -6376069748305619587
+    second: HumainNatureSauter_7
+  - first:
+      213: -8966136265309678509
+    second: HumainNatureSauter_8
+  - first:
+      213: -9070206665990986916
+    second: HumainNatureSauter_9
+  - first:
+      213: -8970434521070022944
+    second: HumainNatureSauter_10
+  - first:
+      213: 9211899617992009253
+    second: HumainNatureSauter_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HumainNatureSauter_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2452
+        width: 969
+        height: 1466
+      alignment: 9
+      pivot: {x: 0.57319444, y: 0.47580993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76605c45182c89970800000000000000
+      internalID: 8761966935778068071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_1
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2464
+        width: 887
+        height: 1241
+      alignment: 9
+      pivot: {x: 0.5932879, y: 0.42856026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6123b81b62b611320800000000000000
+      internalID: 2526918679863177750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_2
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2476
+        width: 940
+        height: 1377
+      alignment: 9
+      pivot: {x: 0.6131787, y: 0.43561602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349da80c4dce872c0800000000000000
+      internalID: -4433533434638706365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_3
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2635
+        width: 768
+        height: 1135
+      alignment: 9
+      pivot: {x: 0.41534457, y: 0.44271815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710764687902fc660800000000000000
+      internalID: 7408175747212668951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1507
+        width: 1052
+        height: 744
+      alignment: 9
+      pivot: {x: 0.42696205, y: 0.5873858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18acae54050a2390800000000000000
+      internalID: -7842450284785915876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_5
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1400
+        width: 727
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.59755886, y: 0.55554944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b776667959ecc980800000000000000
+      internalID: -8517176224816662604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_6
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1548
+        width: 1064
+        height: 881
+      alignment: 9
+      pivot: {x: 0.56110424, y: 0.4530384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd59ba3e4cb2a9cc0800000000000000
+      internalID: -3703599618925554211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_7
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1483
+        width: 911
+        height: 987
+      alignment: 9
+      pivot: {x: 0.47404847, y: 0.4341288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7511258856a387a0800000000000000
+      internalID: -6376069748305619587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 159
+        width: 792
+        height: 1034
+      alignment: 9
+      pivot: {x: 0.4179105, y: 0.4657036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35418724292e19380800000000000000
+      internalID: -8966136265309678509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_9
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 177
+        width: 1141
+        height: 1146
+      alignment: 9
+      pivot: {x: 0.5310803, y: 0.3555913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c532a32e717202280800000000000000
+      internalID: -9070206665990986916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_10
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 76
+        width: 1058
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.55586433, y: 0.3173135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee48ba945d928380800000000000000
+      internalID: -8970434521070022944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumainNatureSauter_11
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 41
+        width: 887
+        height: 1418
+      alignment: 9
+      pivot: {x: 0.5799606, y: 0.46665463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52668f455ed37df70800000000000000
+      internalID: 9211899617992009253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
