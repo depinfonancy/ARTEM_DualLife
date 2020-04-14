@@ -9,6 +9,8 @@ public class BackInTime : MonoBehaviour
     private GameObject player;
     private bool revive = false;
 
+    public float waiting_time = 1f;
+
 
     private void Start()
     {
@@ -19,39 +21,7 @@ public class BackInTime : MonoBehaviour
     {
         if (revive)
         {
-            //Freeze Player
-            Rigidbody2D player_rigidbody2D = player.gameObject.GetComponent<Rigidbody2D>();
-            player_rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
-            player.gameObject.GetComponent<PlayerControler>().enabled = false;
-
-            //Particule + Disp
-            int i = 0;
-            while (i < 100000){
-                i += 1;
-            }
-            player.GetComponent<SpriteRenderer>().enabled = false;
-
-            //Camera travelling
-            i = 0;
-            while (i < 100000)
-            {
-                i += 1;
-            }
-            player.transform.position = transform.GetChild(0).position;
-
-
-            //Particule + Appear
-            player_rigidbody2D.constraints = RigidbodyConstraints2D.None;
-            player_rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-            i = 0;
-            while (i < 100000)
-            {
-                i += 1;
-            }
-            player.GetComponent<SpriteRenderer>().enabled = true;
-            player.gameObject.GetComponent<PlayerControler>().enabled = true;
-
-            revive = false;
+            StartCoroutine("Revive");
         }
 
     }
@@ -63,6 +33,44 @@ public class BackInTime : MonoBehaviour
             revive = true;
             player = other.gameObject;
         }
+    }
+
+    IEnumerator Revive()
+    {
+        //Freeze Player
+        Rigidbody2D player_rigidbody2D = player.gameObject.GetComponent<Rigidbody2D>();
+        player_rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+        player.gameObject.GetComponent<PlayerControler>().enabled = false;
+        
+
+        //Start Particule
+        yield return new WaitForSeconds(waiting_time);
+        player.GetComponent<SpriteRenderer>().enabled = false;
+        //End Particule
+
+
+        //Camera travelling
+        yield return new WaitForSeconds(waiting_time);
+
+        player.transform.position = transform.GetChild(0).position;
+        player_rigidbody2D.constraints = RigidbodyConstraints2D.None;
+        player_rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        int i = 0;
+        while (i++ < 1000) { }
+
+
+        //Start Particule
+        yield return new WaitForSeconds(waiting_time);
+        player.GetComponent<SpriteRenderer>().enabled = true;
+        //End Particule
+
+        i = 0;
+        while (i++ < 1000) { }
+
+        player.gameObject.GetComponent<PlayerControler>().enabled = true;
+ 
+        revive = false;
     }
 
 }
