@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38454160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8343177, y: -7.6305866, z: 1.563283}
+  m_LocalPosition: {x: 0.8343177, y: -7.6305866, z: 0}
   m_LocalScale: {x: 20, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 444720728}
@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281511262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.3243175, y: -3.7905865, z: 1.563283}
+  m_LocalPosition: {x: 5.3243175, y: -3.7905865, z: 0}
   m_LocalScale: {x: 5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 855136665}
@@ -810,7 +810,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5478659658140916517, guid: 46a53f0f2fea54944b05128e8154cef7,
+      objectReference: {fileID: -6563931407698930420, guid: 46a53f0f2fea54944b05128e8154cef7,
         type: 3}
     - target: {fileID: 2213072735739372102, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
@@ -892,6 +892,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.15555911
       objectReference: {fileID: 0}
+    - target: {fileID: 2213072735739372105, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213072735739372105, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6166a2db00111e14f84f6b553920ca84, type: 2}
     m_RemovedComponents:
     - {fileID: 2213072735739372100, guid: 593a263c5107b7f47af6526d49d5517c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 593a263c5107b7f47af6526d49d5517c, type: 3}
@@ -1493,6 +1503,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 460795453}
     m_Modifications:
+    - target: {fileID: 6644795416285682805, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6644795416285682808, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
       propertyPath: m_Offset.y
