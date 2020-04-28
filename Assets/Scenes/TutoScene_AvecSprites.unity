@@ -133,15 +133,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndustrialSpirit
       objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974602, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4951737486903432228, guid: f37989dc6661045cc83b7cc6fb4c72b4,
+        type: 3}
+    - target: {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.2844577
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.2844577
+      objectReference: {fileID: 0}
     - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3300002
+      value: 0.079
       objectReference: {fileID: 0}
     - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.73
+      value: -0.941
       objectReference: {fileID: 0}
     - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
@@ -188,7 +219,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2513187
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.23977864
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004024225120974613, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5327439
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8004024225120974603, guid: 753e0b002ab8eb1448800cdc97289223, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 753e0b002ab8eb1448800cdc97289223, type: 3}
 --- !u!1 &61527171
 GameObject:
@@ -383,7 +430,7 @@ PrefabInstance:
     - target: {fileID: 6644795416285682811, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.33
+      value: -7.51
       objectReference: {fileID: 0}
     - target: {fileID: 6644795416285682811, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
@@ -2710,9 +2757,11 @@ MonoBehaviour:
   target: {fileID: 1641901085}
   parent: {fileID: 0}
   created_box: {fileID: 0}
+  dectectInBothWorld: 0
+  alreadyExist: 0
   maxDistance: 2
-  alpha_chan_lim: 0.7
-  waiting_time_lim: 3
+  alphaChanDetectLim: 0.7
+  TimeNeedDetect: 3
 --- !u!1 &1518575880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,6 +2990,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 49670339}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &1641901089
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641901085}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.47681332, y: 0.03998242}
+  m_Size: {x: 4.339053, y: 6.960496}
+  m_Direction: 0
 --- !u!1 &1683380839
 GameObject:
   m_ObjectHideFlags: 0
