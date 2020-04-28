@@ -63,6 +63,8 @@ public class BackInTime : MonoBehaviour
         //Start Particule
         yield return new WaitForSeconds(waiting_time);
         player.GetComponent<SpriteRenderer>().enabled = true;
+        player.GetComponent<Animator>().SetBool("fallingToDeath", true);
+        player.GetComponent<Animator>().SetBool("fallingToDeath", false);
         //End Particule
 
         i = 0;
