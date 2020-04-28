@@ -66,6 +66,7 @@ public class InvisibleObjectDetection : MonoBehaviour
             if (dectectInBothWorld)
             {
                 GameObject gm = GameObject.Find(parent.transform.parent.name + "/" + parent.name + "/" + name);
+                Debug.Log(parent.transform.parent.name + "/" + parent.name + "/" + name);
                 Destroy(gm);
             }
             GameObject box = Instantiate(created_box, parent.transform);

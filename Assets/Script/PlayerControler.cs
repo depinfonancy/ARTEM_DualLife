@@ -36,7 +36,8 @@ public class PlayerControler : MonoBehaviour
         m_animator = GetComponent<Animator>();
 	}
 
-    void Update()
+
+    void FixedUpdate()
     {
         horizontalMove = Input.GetAxis(originalWorld + "Horizontal") * playerSpeed;
 
@@ -53,20 +54,25 @@ public class PlayerControler : MonoBehaviour
         {
             jump = true;
         }
-    }
 
-    void FixedUpdate()
-    {
         // Move our character
         if (jump)
         { 
             m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-            m_animator.SetBool("isJumping", false);
-            jump = false;
         }
 
         Vector3 move = new Vector3(horizontalMove, m_rigidbody.velocity.y, 0.0f);
         m_rigidbody.velocity = move;
+    }
+
+    void LateUpdate()
+    {
+        if (jump) {
+            m_animator.SetBool("isJumping", true);
+            jump = false;
+        }else {
+            m_animator.SetBool("isJumping", false);
+        }
         if (horizontalMove == 0)
         {
             m_animator.SetBool("isWalking", false);
