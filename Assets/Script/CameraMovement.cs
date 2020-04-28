@@ -16,11 +16,6 @@ public class CameraMovement : MonoBehaviour
     void Start()
     {
         NatureSetting = GameObject.Find("NatureWorld");
-
-        natureHuman = GameObject.Find("NatureHuman");
-        natureSpirit = GameObject.Find("NatureSpirit");
-        industrialHuman = GameObject.Find("IndustrialHuman");
-        industrialSpirit = GameObject.Find("IndustrialSpirit");
     }
 
 
@@ -41,6 +36,9 @@ public class CameraMovement : MonoBehaviour
     {
         if (NatureSetting.activeSelf)
         {
+            natureHuman = GameObject.Find("NatureHuman");
+            industrialSpirit = GameObject.Find("IndustrialSpirit");
+
             var bounds = new Bounds(natureHuman.transform.position, Vector3.zero);
             bounds.Encapsulate(industrialSpirit.transform.position);
 
@@ -48,6 +46,9 @@ public class CameraMovement : MonoBehaviour
         }
         else
         {
+            natureSpirit = GameObject.Find("NatureSpirit");
+            industrialHuman = GameObject.Find("IndustrialHuman");
+     
             var bounds = new Bounds(industrialHuman.transform.position, Vector3.zero);
             bounds.Encapsulate(natureSpirit.transform.position);
 
