@@ -1740,6 +1740,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 460795453}
     m_Modifications:
+    - target: {fileID: 4372441198439315789, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6644795416285682805, guid: e9df530aebbe7524e88d9ae34257e488,
         type: 3}
       propertyPath: m_Enabled
@@ -1890,6 +1895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NatureHuman
+      objectReference: {fileID: 0}
+    - target: {fileID: 9142456188893946800, guid: e9df530aebbe7524e88d9ae34257e488,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6644795416285682808, guid: e9df530aebbe7524e88d9ae34257e488, type: 3}
@@ -2488,6 +2498,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 460795453}
     m_Modifications:
+    - target: {fileID: 7833833148094857486, guid: 753e0b002ab8eb1448800cdc97289223,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8004024225120974600, guid: 753e0b002ab8eb1448800cdc97289223,
         type: 3}
       propertyPath: m_Name
