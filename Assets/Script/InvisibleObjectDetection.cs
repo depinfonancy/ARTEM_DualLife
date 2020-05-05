@@ -11,10 +11,11 @@ public class InvisibleObjectDetection : MonoBehaviour
     private float timeSpendWait = 0f;
     private bool created = false;
 
+    private string worldName;
+    private GameObject target;
 
-    public GameObject target;
-    public GameObject parent;
-    public GameObject created_box;
+    public GameObject objectsLayout;
+    public GameObject created_obj;
 
     public bool dectectInBothWorld = false;
     public bool alreadyExist = false;
@@ -26,6 +27,17 @@ public class InvisibleObjectDetection : MonoBehaviour
     
     private void Start()
     {
+        worldName = gameObject.transform.parent.transform.parent.name;
+
+        if (worldName == "NatureWorld")
+        {
+            target = GameObject.Find("IndustrialSpirit");
+        }
+        else
+        {
+            target = GameObject.Find("NatureSpirit");
+        }
+
         m_sprite = GetComponent<SpriteRenderer>();
         color = m_sprite.color;
         m_sprite.color = new Color(color.r, color.g, color.b, alphaChan);
@@ -65,12 +77,22 @@ public class InvisibleObjectDetection : MonoBehaviour
         {
             if (dectectInBothWorld)
             {
-                GameObject gm = GameObject.Find(parent.transform.parent.name + "/" + parent.name + "/" + name);
-                Debug.Log(parent.transform.parent.name + "/" + parent.name + "/" + name);
-                Destroy(gm);
+                if(worldName == "NatureWorld")
+                {
+                    int ind = int.Parse(transform.name.Substring(15));
+                    Transform gm = objectsLayout.transform.GetChild(ind);
+                    Destroy(gm.gameObject);
+                }
+                else
+                {
+                    int ind = int.Parse(transform.name.Substring(15));
+                    Transform gm = objectsLayout.transform.GetChild(ind);
+                    Destroy(gm.gameObject);
+                }
+
             }
-            GameObject box = Instantiate(created_box, parent.transform);
-            box.transform.position = transform.position;
+            GameObject obj = Instantiate(created_obj, objectsLayout.transform);
+            obj.transform.position = transform.position;
             created = true;
         }
 

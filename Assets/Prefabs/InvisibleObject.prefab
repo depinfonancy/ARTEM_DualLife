@@ -143,10 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9052387b454f3943beed63c47d7b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  parent: {fileID: 0}
-  created_box: {fileID: 7812549868804298208, guid: 0f328b6d393d43048bdd1516006c15c4,
+  created_obj: {fileID: 7812549868804298208, guid: 0f328b6d393d43048bdd1516006c15c4,
     type: 3}
+  dectectInBothWorld: 0
+  alreadyExist: 0
   maxDistance: 2
-  alpha_chan_lim: 0.7
-  waiting_time_lim: 3
+  alphaChanDetectLim: 0.7
+  TimeNeedDetect: 3
