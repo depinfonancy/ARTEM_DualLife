@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spirit_Idle
+  m_Name: NatureSpirit_Fly
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,19 +22,19 @@ AnimationClip:
     - time: 0
       value: {fileID: -2474428805082621234, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
-    - time: 0.13333334
+    - time: 0.1
       value: {fileID: 4249465378322574628, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
-    - time: 0.28333333
+    - time: 0.2
       value: {fileID: 397195568962340949, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
-    - time: 0.41666666
+    - time: 0.3
       value: {fileID: 6891893888552420818, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
-    - time: 0.56666666
+    - time: 0.4
       value: {fileID: -6657396559495726474, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
-    - time: 0.7
+    - time: 0.5
       value: {fileID: -8019561237317251199, guid: 126325e20211142edaf02033c26be58c,
         type: 3}
     attribute: m_Sprite
@@ -67,7 +67,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.71666664
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
