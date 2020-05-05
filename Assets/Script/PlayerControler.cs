@@ -36,43 +36,19 @@ public class PlayerControler : MonoBehaviour
         m_animator = GetComponent<Animator>();
 	}
 
+    private void Update()
+    {
+        if (Input.GetButtonDown("Jump") && onGround)
+        {
+            jump = true;
+        }
+    }
+
 
     void FixedUpdate()
     {
         horizontalMove = Input.GetAxis(originalWorld + "Horizontal") * playerSpeed;
 
-        if (m_rigidbody.velocity.y != 0)
-        {
-            onGround = false;
-        }
-        else
-        {
-            onGround = true;
-        }
-
-        if (Input.GetButtonDown("Jump") && onGround)
-        {
-            jump = true;
-        }
-
-        // Move our character
-        if (jump)
-        { 
-            m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-        }
-
-        Vector3 move = new Vector3(horizontalMove, m_rigidbody.velocity.y, 0.0f);
-        m_rigidbody.velocity = move;
-    }
-
-    void LateUpdate()
-    {
-        if (jump) {
-            m_animator.SetBool("isJumping", true);
-            jump = false;
-        }else {
-            m_animator.SetBool("isJumping", false);
-        }
         if (horizontalMove == 0)
         {
             m_animator.SetBool("isWalking", false);
@@ -85,6 +61,30 @@ public class PlayerControler : MonoBehaviour
                 Flip();
             }
         }
+
+        // Move our character
+        if (jump)
+        {
+            m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            m_animator.SetBool("isJumping", true);
+            jump = false;
+        }
+        else
+        {
+            m_animator.SetBool("isJumping", false);
+        }
+
+        if (m_rigidbody.velocity.y != 0)
+        {
+            onGround = false;
+        }
+        else
+        {
+            onGround = true;
+        }
+
+        Vector3 move = new Vector3(horizontalMove, m_rigidbody.velocity.y, 0.0f);
+        m_rigidbody.velocity = move;
     }
 
     void Flip()
