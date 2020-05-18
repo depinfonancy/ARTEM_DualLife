@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5f54d20417513745988f46abaff7f3d
+guid: b3be8641189e7594c92ae2cfcdc07c0a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
