@@ -52,6 +52,11 @@ public class PlayerControler : MonoBehaviour
     {
 
         float horizontalMove = Input.GetAxis(originalWorld + "Horizontal");
+        if(Mathf.Abs(horizontalMove) < 0.1)
+        {
+            horizontalMove = 0;
+        }
+        Debug.Log(horizontalMove);
         Move(horizontalMove, jump);
         jump = false;
 
@@ -60,6 +65,7 @@ public class PlayerControler : MonoBehaviour
     private void Move(float move, bool jump)
     {
         bool pushing = GetComponent<PlayerPush>().pushing;
+        GetComponent<PlayerPickUp>().enabled = !pushing;
 
         //Walk
         if(move != 0)
