@@ -53,3 +53,6 @@ TagManager:
   - name: Sol_front
     uniqueID: 2633767201
     locked: 0
+  - name: Up_front
+    uniqueID: 972619925
+    locked: 0
