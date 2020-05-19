@@ -27,11 +27,15 @@ public class ObjectUnlock : MonoBehaviour
             {
                 if(obj == key)
                 {
-                    m_collider.isTrigger = true;
                     m_animator.SetBool("isEating", true);
                     m_animator.SetBool("isDisappearing", true);
                 }
             }
         }
+    }
+
+    public void ToTriggerCollider()
+    {
+        m_collider.isTrigger = true;
     }
 }
