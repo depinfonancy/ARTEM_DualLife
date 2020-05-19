@@ -646,6 +646,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 553986769}
     m_Modifications:
+    - target: {fileID: 1441644301603072819, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441644301603072819, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.130511
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441644301603072819, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8766586
+      objectReference: {fileID: 0}
     - target: {fileID: 2213072735739372099, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_Name
@@ -719,27 +734,47 @@ PrefabInstance:
     - target: {fileID: 8490537811635608963, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.135
+      value: 2.031
       objectReference: {fileID: 0}
     - target: {fileID: 8490537811635608963, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.09
+      value: -3.813
       objectReference: {fileID: 0}
     - target: {fileID: 8490537811635608963, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.16791686
+      value: 1.3549387
       objectReference: {fileID: 0}
     - target: {fileID: 8490537811635608963, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15013053
+      value: 1.3524711
       objectReference: {fileID: 0}
     - target: {fileID: 8490537811635608963, guid: 593a263c5107b7f47af6526d49d5517c,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.079441
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490537812394096103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.049817305
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490537812394096103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.010145213
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490537812394096103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.7312558
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490537812394096103, guid: 593a263c5107b7f47af6526d49d5517c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.7623204
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593a263c5107b7f47af6526d49d5517c, type: 3}
@@ -5137,8 +5172,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1113472104}
   - component: {fileID: 1113472105}
+  - component: {fileID: 1113472106}
   m_Layer: 0
-  m_Name: Dragon
+  m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5152,8 +5188,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113472103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.17, y: -4.8, z: 0}
-  m_LocalScale: {x: 0.5496441, y: 0.642121, z: 1}
+  m_LocalPosition: {x: 5.22, y: -5.37, z: 0}
+  m_LocalScale: {x: 0.15758187, y: 0.16074559, z: 1}
   m_Children: []
   m_Father: {fileID: 1341778909}
   m_RootOrder: 2
@@ -5197,7 +5233,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -781159265185330087, guid: 769bb395028e54f04bd4a409c035f66d,
+  m_Sprite: {fileID: 7483374277268156989, guid: ae58e62f21b944db48133bbe3d4139ee,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5209,6 +5245,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1113472106
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113472103}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4bba1a41d29fc4d129af6686acc16b7c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1117079094
 GameObject:
   m_ObjectHideFlags: 0

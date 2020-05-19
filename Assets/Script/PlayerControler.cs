@@ -9,16 +9,18 @@ public class PlayerControler : MonoBehaviour
     private Rigidbody2D m_rigidbody;
     private Animator m_animator;
 
-    private float horizontalMove = 0f;
-
 	private bool lookRight = true;
     private bool jump = false;
-    private bool onGround = true;
 
     private string originalWorld;
+    private Vector3 m_Velocity = Vector3.zero;
 
     public float playerSpeed = 5f;
     public float jumpForce = 10f;
+
+    public List<GameObject> inventory; 
+
+    private float movementSmoothing = .05f;
 
 
     void Start()
@@ -38,60 +40,112 @@ public class PlayerControler : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Jump") && onGround)
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             jump = true;
         }
-    }
 
+        Debug.Log(inventory); 
+    }
 
     void FixedUpdate()
     {
-        horizontalMove = Input.GetAxis(originalWorld + "Horizontal") * playerSpeed;
 
-        if (horizontalMove == 0)
+        float horizontalMove = Input.GetAxis(originalWorld + "Horizontal");
+        Move(horizontalMove, jump);
+        jump = false;
+
+    }
+
+    private void Move(float move, bool jump)
+    {
+        bool pushing = GetComponent<PlayerPush>().pushing;
+
+        //Walk
+        if(move != 0)
         {
-            m_animator.SetBool("isWalking", false);
+            if (pushing)
+            {
+                m_animator.SetBool("isWalking", true);
+                Walk(move * playerSpeed/2, true);
+            } else
+            {
+                m_animator.SetBool("isWalking", true);
+                Walk(move * playerSpeed, false);
+            }
         }
         else
         {
-            m_animator.SetBool("isWalking", true);
-            if ((lookRight && horizontalMove < 0.0f) || (!lookRight && horizontalMove > 0.0f))
-            {
-                Flip();
-            }
+            m_animator.SetBool("isWalking", false);
         }
 
-        // Move our character
-        if (jump)
+        //Jump
+        if (jump && !pushing)
         {
-            m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             m_animator.SetBool("isJumping", true);
-            jump = false;
+            Jump();
         }
         else
         {
             m_animator.SetBool("isJumping", false);
         }
 
+        //Push
+    }
+
+    private void Walk(float move, bool freezeFlip)
+    {
+        if (!freezeFlip)
+        {
+            if ((lookRight && move < 0.0f) || (!lookRight && move > 0.0f))
+            {
+                Flip();
+            }
+        }
+
+        Vector3 targetVelocity = new Vector3(move, m_rigidbody.velocity.y, 0.0f);
+        m_rigidbody.velocity = Vector3.SmoothDamp(m_rigidbody.velocity, targetVelocity, ref m_Velocity, movementSmoothing);
+    }
+
+    private void Jump()
+    {
+        m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+    }
+
+    private bool IsGrounded()
+    {
         if (m_rigidbody.velocity.y != 0)
         {
-            onGround = false;
+            return false;
         }
         else
         {
-            onGround = true;
+            return true;
         }
-
-        Vector3 move = new Vector3(horizontalMove, m_rigidbody.velocity.y, 0.0f);
-        m_rigidbody.velocity = move;
     }
 
-    void Flip()
+    private void Flip()
     {
+        lookRight = !lookRight;
+
         Vector3 scale = transform.localScale;
         scale.x *= -1.0f;
-        lookRight = !lookRight;
         transform.localScale = scale;
     }
+
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if(other.transform.tag == "Pushable")
+    //    {s
+    //        canPush = true;
+    //    }
+    //}
+
+    //private void OnCollisionExit2D(Collision2D other)
+    //{
+    //    if (other.transform.tag == "Pushable")
+    //    {
+    //        canPush = false;
+    //    }
+    //}
 }

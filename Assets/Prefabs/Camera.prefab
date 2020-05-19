@@ -96,5 +96,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253c59755420cf44787878ece51d4327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  offset: {x: 0, y: 0, z: 0}
+  smoothTime: 0.3
+  offset: {x: 0, y: 0, z: -9}
+  minZoom: 0
+  maxZoom: 0
+  meanDistance: 5
+  topLimit: 6.36
+  bottomLimit: 3.83
+  leftLimit: -4
+  rightLimit: 5.75

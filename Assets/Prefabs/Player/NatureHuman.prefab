@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9142456188893946800}
   - component: {fileID: 4372441198439315785}
   - component: {fileID: 4372441198439315786}
+  - component: {fileID: 9070794433787762121}
   m_Layer: 8
   m_Name: NatureHuman
   m_TagString: Player
@@ -122,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 5
   jumpForce: 10
+  inventory: []
 --- !u!95 &9142456188893946800
 Animator:
   serializedVersion: 3
@@ -170,6 +172,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 1
-  boxMask:
-    serializedVersion: 2
-    m_Bits: 256
+  pushing: 0
+--- !u!114 &9070794433787762121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372441198439315788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641be0b6a49a231449f8176c335f6580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

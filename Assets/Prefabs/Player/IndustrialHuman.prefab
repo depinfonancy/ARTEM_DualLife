@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2601767214462562108}
   - component: {fileID: 8808415219643637169}
   - component: {fileID: 8490537812394096103}
+  - component: {fileID: -7463329509028149919}
+  - component: {fileID: -7359758516900117825}
   m_Layer: 8
   m_Name: IndustrialHuman
   m_TagString: Player
@@ -121,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 5
   jumpForce: 10
+  inventory: []
 --- !u!95 &8808415219643637169
 Animator:
   serializedVersion: 3
@@ -156,3 +159,29 @@ CapsuleCollider2D:
   m_Offset: {x: 0.11400278, y: 0}
   m_Size: {x: 4.7783937, y: 12.652823}
   m_Direction: 0
+--- !u!114 &-7463329509028149919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490537812394096096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8472c20ce94dd2441b2b32713bbd4e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 1
+  pushing: 0
+--- !u!114 &-7359758516900117825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490537812394096096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641be0b6a49a231449f8176c335f6580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
