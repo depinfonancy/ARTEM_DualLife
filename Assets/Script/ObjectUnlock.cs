@@ -6,8 +6,6 @@ public class ObjectUnlock : MonoBehaviour
 {
 
     public GameObject key;
-    public float eatingTime = 2f;
-    public float disappearingTime = 2f;
 
     private Collider2D m_collider;
     private Animator m_animator;
@@ -29,18 +27,15 @@ public class ObjectUnlock : MonoBehaviour
             {
                 if(obj == key)
                 {
-                    StartCoroutine("Open");
+                    m_animator.SetBool("isEating", true);
+                    m_animator.SetBool("isDisappearing", true);
                 }
             }
         }
     }
 
-    IEnumerator Open()
+    public void ToTriggerCollider()
     {
-        m_animator.SetBool("isEating", true);
-        yield return new WaitForSeconds(eatingTime);
-        m_animator.SetBool("isDisappearing", true);
-        yield return new WaitForSeconds(disappearingTime);
         m_collider.isTrigger = true;
     }
 }
