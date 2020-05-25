@@ -44,19 +44,11 @@ public class PlayerControler : MonoBehaviour
         {
             jump = true;
         }
-
-        Debug.Log(inventory); 
     }
 
     void FixedUpdate()
     {
-
         float horizontalMove = Input.GetAxis(originalWorld + "Horizontal");
-        if(Mathf.Abs(horizontalMove) < 0.1)
-        {
-            horizontalMove = 0;
-        }
-        Debug.Log(horizontalMove);
         Move(horizontalMove, jump);
         jump = false;
 
@@ -72,10 +64,12 @@ public class PlayerControler : MonoBehaviour
         {
             if (pushing)
             {
-                m_animator.SetBool("isWalking", true);
+                m_animator.SetBool("isWalking", false);
+                m_animator.SetBool("isPushing", true);
                 Walk(move * playerSpeed/2, true);
             } else
             {
+                m_animator.SetBool("isPushing", false);
                 m_animator.SetBool("isWalking", true);
                 Walk(move * playerSpeed, false);
             }
@@ -83,6 +77,8 @@ public class PlayerControler : MonoBehaviour
         else
         {
             m_animator.SetBool("isWalking", false);
+            m_animator.SetBool("isPushing", false);
+            //Walk(0, true);
         }
 
         //Jump
@@ -139,19 +135,4 @@ public class PlayerControler : MonoBehaviour
         transform.localScale = scale;
     }
 
-    //private void OnCollisionEnter2D(Collision2D other)
-    //{
-    //    if(other.transform.tag == "Pushable")
-    //    {s
-    //        canPush = true;
-    //    }
-    //}
-
-    //private void OnCollisionExit2D(Collision2D other)
-    //{
-    //    if (other.transform.tag == "Pushable")
-    //    {
-    //        canPush = false;
-    //    }
-    //}
 }

@@ -56,9 +56,6 @@ public class BackInTime : MonoBehaviour
         player_rigidbody2D.constraints = RigidbodyConstraints2D.None;
         player_rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        int i = 0;
-        while (i++ < 1000) { }
-
 
         //Start Particule
         yield return new WaitForSeconds(waiting_time);
@@ -66,9 +63,6 @@ public class BackInTime : MonoBehaviour
         player.GetComponent<Animator>().SetBool("fallingToDeath", true);
         player.GetComponent<Animator>().SetBool("fallingToDeath", false);
         //End Particule
-
-        i = 0;
-        while (i++ < 1000) { }
 
         player.gameObject.GetComponent<PlayerControler>().enabled = true;
  
