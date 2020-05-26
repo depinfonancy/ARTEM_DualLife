@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 91e004341497542829424fa982a0b0e0
+guid: 73f074ed92aae477da7ff3e9836048dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8761966935778068071
-    second: HumainNatureSauter_0
+      213: -6493951019787864987
+    second: huamin nature pousser fini_0
   - first:
-      213: 2526918679863177750
-    second: HumainNatureSauter_1
+      213: -2541537835595474188
+    second: huamin nature pousser fini_1
   - first:
-      213: -4433533434638706365
-    second: HumainNatureSauter_2
+      213: 1964071410839806168
+    second: huamin nature pousser fini_2
   - first:
-      213: 7408175747212668951
-    second: HumainNatureSauter_3
+      213: -5233645680115025235
+    second: huamin nature pousser fini_3
   - first:
-      213: -7842450284785915876
-    second: HumainNatureSauter_4
+      213: -558609756380649840
+    second: huamin nature pousser fini_4
   - first:
-      213: -8517176224816662604
-    second: HumainNatureSauter_5
+      213: 5126377032457964220
+    second: huamin nature pousser fini_5
   - first:
-      213: -3703599618925554211
-    second: HumainNatureSauter_6
+      213: 5400413637340922696
+    second: huamin nature pousser fini_6
   - first:
-      213: -6376069748305619587
-    second: HumainNatureSauter_7
+      213: 3770173703568831724
+    second: huamin nature pousser fini_7
   - first:
-      213: -8966136265309678509
-    second: HumainNatureSauter_8
+      213: -4137170720732493585
+    second: huamin nature pousser fini_8
   - first:
-      213: -9070206665990986916
-    second: HumainNatureSauter_9
+      213: 5667010041107141169
+    second: huamin nature pousser fini_9
   - first:
-      213: -8970434521070022944
-    second: HumainNatureSauter_10
+      213: -8578006418527165954
+    second: huamin nature pousser fini_10
   - first:
-      213: 9211899617992009253
-    second: HumainNatureSauter_11
+      213: -338019144145923715
+    second: huamin nature pousser fini_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -122,253 +122,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HumainNatureSauter_0
+      name: huamin nature pousser fini_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2452
-        width: 969
-        height: 1466
-      alignment: 9
-      pivot: {x: 0.57319444, y: 0.47580993}
+        x: 0
+        y: 1904.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76605c45182c89970800000000000000
-      internalID: 8761966935778068071
+      spriteID: 56432c434f9d0e5a0800000000000000
+      internalID: -6493951019787864987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_1
+      name: huamin nature pousser fini_1
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 2464
-        width: 887
-        height: 1241
-      alignment: 9
-      pivot: {x: 0.5932879, y: 0.42856026}
+        x: 862
+        y: 1904.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6123b81b62b611320800000000000000
-      internalID: 2526918679863177750
+      spriteID: 4fadd1eddc4aabcd0800000000000000
+      internalID: -2541537835595474188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_2
+      name: huamin nature pousser fini_2
       rect:
         serializedVersion: 2
-        x: 1955
-        y: 2476
-        width: 940
-        height: 1377
-      alignment: 9
-      pivot: {x: 0.6131787, y: 0.43561602}
+        x: 1724
+        y: 1904.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 349da80c4dce872c0800000000000000
-      internalID: -4433533434638706365
+      spriteID: 8d06b94ca88c14b10800000000000000
+      internalID: 1964071410839806168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_3
+      name: huamin nature pousser fini_3
       rect:
         serializedVersion: 2
-        x: 2930
-        y: 2454
-        width: 1053
-        height: 1383
-      alignment: 9
-      pivot: {x: 0.41534457, y: 0.44271815}
+        x: 2586
+        y: 1904.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 710764687902fc660800000000000000
-      internalID: 7408175747212668951
+      spriteID: daa7c74abfa5e57b0800000000000000
+      internalID: -5233645680115025235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_4
+      name: huamin nature pousser fini_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1166
-        width: 1119
-        height: 1343
-      alignment: 9
-      pivot: {x: 0.42696205, y: 0.5873858}
+        x: 0
+        y: 952.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c18acae54050a2390800000000000000
-      internalID: -7842450284785915876
+      spriteID: 0962dded26b6f38f0800000000000000
+      internalID: -558609756380649840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_5
+      name: huamin nature pousser fini_5
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 1299
-        width: 804
-        height: 1210
-      alignment: 9
-      pivot: {x: 0.59755886, y: 0.55554944}
+        x: 862
+        y: 952.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b776667959ecc980800000000000000
-      internalID: -8517176224816662604
+      spriteID: cbac06410cc842740800000000000000
+      internalID: 5126377032457964220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_6
+      name: huamin nature pousser fini_6
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 1232
-        width: 1095
-        height: 1253
-      alignment: 9
-      pivot: {x: 0.56110424, y: 0.4530384}
+        x: 1724
+        y: 952.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd59ba3e4cb2a9cc0800000000000000
-      internalID: -3703599618925554211
+      spriteID: 84381ed279f12fa40800000000000000
+      internalID: 5400413637340922696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_7
+      name: huamin nature pousser fini_7
       rect:
         serializedVersion: 2
-        x: 2973
-        y: 1438
-        width: 1028
-        height: 1289
-      alignment: 9
-      pivot: {x: 0.47404847, y: 0.4341288}
+        x: 2586
+        y: 952.6667
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7511258856a387a0800000000000000
-      internalID: -6376069748305619587
+      spriteID: ce43db61209525430800000000000000
+      internalID: 3770173703568831724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_8
+      name: huamin nature pousser fini_8
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 871
-        height: 1335
-      alignment: 9
-      pivot: {x: 0.4179105, y: 0.4657036}
+        x: 0
+        y: 0.666687
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35418724292e19380800000000000000
-      internalID: -8966136265309678509
+      spriteID: fe8c79f2621d596c0800000000000000
+      internalID: -4137170720732493585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_9
+      name: huamin nature pousser fini_9
       rect:
         serializedVersion: 2
-        x: 885
-        y: 11
-        width: 1150
-        height: 1385
-      alignment: 9
-      pivot: {x: 0.5310803, y: 0.3555913}
+        x: 862
+        y: 0.666687
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c532a32e717202280800000000000000
-      internalID: -9070206665990986916
+      spriteID: 13253c67b9345ae40800000000000000
+      internalID: 5667010041107141169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_10
+      name: huamin nature pousser fini_10
       rect:
         serializedVersion: 2
-        x: 2065
-        y: 76
-        width: 1060
-        height: 1350
-      alignment: 9
-      pivot: {x: 0.55586433, y: 0.3173135}
+        x: 1724
+        y: 0.666687
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ee48ba945d928380800000000000000
-      internalID: -8970434521070022944
+      spriteID: ef1eaae4c9cc4f880800000000000000
+      internalID: -8578006418527165954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HumainNatureSauter_11
+      name: huamin nature pousser fini_11
       rect:
         serializedVersion: 2
-        x: 3137
-        y: 41
-        width: 887
-        height: 1418
-      alignment: 9
-      pivot: {x: 0.5799606, y: 0.46665463}
+        x: 2586
+        y: 0.666687
+        width: 862.5
+        height: 952.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52668f455ed37df70800000000000000
-      internalID: 9211899617992009253
+      spriteID: d7196e9116d1f4bf0800000000000000
+      internalID: -338019144145923715
       vertices: []
       indices: 
       edges: []
