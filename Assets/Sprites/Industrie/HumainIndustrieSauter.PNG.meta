@@ -188,10 +188,10 @@ TextureImporter:
       name: HumainIndustrieSauter_3
       rect:
         serializedVersion: 2
-        x: 2217
+        x: 2219
         y: 1579
-        width: 674
-        height: 1177
+        width: 673
+        height: 1055
       alignment: 9
       pivot: {x: 0.6195797, y: 0.4266319}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: HumainIndustrieSauter_4
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 1640
-        width: 1009
-        height: 978
+        x: 2902
+        y: 1588
+        width: 971
+        height: 957
       alignment: 9
       pivot: {x: 0.5171162, y: 0.33517948}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: HumainIndustrieSauter_5
       rect:
         serializedVersion: 2
-        x: 3918
-        y: 1669
-        width: 804
-        height: 983
+        x: 3952
+        y: 1616
+        width: 720
+        height: 1059
       alignment: 9
       pivot: {x: 0.37111259, y: 0.43557817}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: HumainIndustrieSauter_6
       rect:
         serializedVersion: 2
-        x: 52
-        y: 258
-        width: 938
-        height: 795
+        x: 35
+        y: 175
+        width: 887
+        height: 981
       alignment: 9
       pivot: {x: 0.4263506, y: 0.5362066}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: HumainIndustrieSauter_7
       rect:
         serializedVersion: 2
-        x: 990
-        y: 242
-        width: 912
-        height: 845
+        x: 1020
+        y: 157
+        width: 864
+        height: 976
       alignment: 9
       pivot: {x: 0.5504994, y: 0.5204389}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,8 +295,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1912
         y: 242
-        width: 708
-        height: 1006
+        width: 739
+        height: 1058
       alignment: 9
       pivot: {x: 0.52439374, y: 0.4370514}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: HumainIndustrieSauter_9
       rect:
         serializedVersion: 2
-        x: 2746
+        x: 2669
         y: 134
-        width: 680
-        height: 1134
+        width: 734
+        height: 1254
       alignment: 9
       pivot: {x: 0.6269908, y: 0.43400335}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: HumainIndustrieSauter_10
       rect:
         serializedVersion: 2
-        x: 3495
+        x: 3459
         y: 128
-        width: 647
-        height: 1117
+        width: 683
+        height: 1223
       alignment: 9
       pivot: {x: 0.5533868, y: 0.3659978}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,8 +358,8 @@ TextureImporter:
         serializedVersion: 2
         x: 4157
         y: 152
-        width: 518
-        height: 1330
+        width: 664
+        height: 1390
       alignment: 9
       pivot: {x: 0.52248764, y: 0.4913817}
       border: {x: 0, y: 0, z: 0, w: 0}
