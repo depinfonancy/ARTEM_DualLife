@@ -119,12 +119,12 @@ TextureImporter:
       name: HumainIndustrieCourir_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 19
-        width: 378
-        height: 976
+        x: 4
+        y: 21
+        width: 452
+        height: 974
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: HumainIndustrieCourir_1
       rect:
         serializedVersion: 2
-        x: 428
-        y: 19
-        width: 583
-        height: 986
+        x: 451
+        y: 25
+        width: 536
+        height: 980
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: HumainIndustrieCourir_2
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 19
-        width: 672
-        height: 981
+        x: 1039
+        y: 35
+        width: 616
+        height: 965
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: HumainIndustrieCourir_3
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 19
-        width: 561
-        height: 1007
+        x: 1702
+        y: 35
+        width: 568
+        height: 991
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: HumainIndustrieCourir_4
       rect:
         serializedVersion: 2
-        x: 2301
-        y: 19
-        width: 394
-        height: 991
+        x: 2262
+        y: 35
+        width: 494
+        height: 975
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: HumainIndustrieCourir_5
       rect:
         serializedVersion: 2
-        x: 2763
-        y: 19
-        width: 373
-        height: 981
+        x: 2718
+        y: 40
+        width: 461
+        height: 960
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: HumainIndustrieCourir_6
       rect:
         serializedVersion: 2
-        x: 3173
-        y: 19
-        width: 566
-        height: 991
+        x: 3198
+        y: 63
+        width: 494
+        height: 947
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: HumainIndustrieCourir_7
       rect:
         serializedVersion: 2
-        x: 3734
-        y: 19
-        width: 708
-        height: 955
+        x: 3753
+        y: 73
+        width: 654
+        height: 901
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: HumainIndustrieCourir_8
       rect:
         serializedVersion: 2
-        x: 4463
-        y: 19
-        width: 504
-        height: 970
+        x: 4458
+        y: 68
+        width: 509
+        height: 921
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,11 +309,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5004
-        y: 19
-        width: 399
-        height: 986
+        y: 58
+        width: 433
+        height: 947
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
