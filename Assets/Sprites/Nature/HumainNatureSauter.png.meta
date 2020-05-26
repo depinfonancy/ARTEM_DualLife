@@ -188,10 +188,10 @@ TextureImporter:
       name: HumainNatureSauter_3
       rect:
         serializedVersion: 2
-        x: 2942
-        y: 2635
-        width: 768
-        height: 1135
+        x: 2930
+        y: 2546
+        width: 859
+        height: 1291
       alignment: 9
       pivot: {x: 0.41534457, y: 0.44271815}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: HumainNatureSauter_4
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1507
-        width: 1052
-        height: 744
+        x: 99
+        y: 1184
+        width: 1023
+        height: 1325
       alignment: 9
       pivot: {x: 0.42696205, y: 0.5873858}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: HumainNatureSauter_5
       rect:
         serializedVersion: 2
-        x: 1145
-        y: 1400
-        width: 727
-        height: 1064
+        x: 1134
+        y: 1305
+        width: 762
+        height: 1204
       alignment: 9
       pivot: {x: 0.59755886, y: 0.55554944}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: HumainNatureSauter_6
       rect:
         serializedVersion: 2
-        x: 1914
-        y: 1548
-        width: 1064
-        height: 881
+        x: 1932
+        y: 1257
+        width: 1023
+        height: 1228
       alignment: 9
       pivot: {x: 0.56110424, y: 0.4530384}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: HumainNatureSauter_7
       rect:
         serializedVersion: 2
-        x: 2983
-        y: 1483
-        width: 911
-        height: 987
+        x: 2967
+        y: 1444
+        width: 927
+        height: 1258
       alignment: 9
       pivot: {x: 0.47404847, y: 0.4341288}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,9 +294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 159
-        width: 792
-        height: 1034
+        y: 101
+        width: 840
+        height: 1234
       alignment: 9
       pivot: {x: 0.4179105, y: 0.4657036}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,9 +315,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 885
-        y: 177
-        width: 1141
-        height: 1146
+        y: 11
+        width: 1150
+        height: 1385
       alignment: 9
       pivot: {x: 0.5310803, y: 0.3555913}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: HumainNatureSauter_10
       rect:
         serializedVersion: 2
-        x: 2067
+        x: 2065
         y: 76
-        width: 1058
-        height: 1100
+        width: 1060
+        height: 1350
       alignment: 9
       pivot: {x: 0.55586433, y: 0.3173135}
       border: {x: 0, y: 0, z: 0, w: 0}
