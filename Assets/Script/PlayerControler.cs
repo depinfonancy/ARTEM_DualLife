@@ -18,13 +18,15 @@ public class PlayerControler : MonoBehaviour
     public float playerSpeed = 5f;
     public float jumpForce = 10f;
 
-    public List<GameObject> inventory; 
+    private Inventory m_inventory; 
 
     private float movementSmoothing = .05f;
 
 
     void Start()
     {
+        m_inventory = GameObject.Find("SwitchWorldControler").GetComponent<Inventory>();
+
         if (gameObject.name.Contains("Nature"))
         {
             originalWorld = "Nature";
@@ -112,6 +114,16 @@ public class PlayerControler : MonoBehaviour
     private void Jump()
     {
         m_rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+    }
+
+    public void AddToInventory(GameObject obj)
+    {
+        m_inventory.AddItem(obj);
+    }
+
+    public bool Have(GameObject target)
+    {
+        return m_inventory.IsIn(target);
     }
 
     private bool IsGrounded()

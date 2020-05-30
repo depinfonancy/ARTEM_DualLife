@@ -38,7 +38,7 @@ public class PlayerPickUp : MonoBehaviour
     {
         if (other.gameObject.tag == "Collectable" && canPickUp)
         {
-            GetComponent<PlayerControler>().inventory.Add(other.gameObject);
+            GetComponent<PlayerControler>().AddToInventory(other.gameObject);
             Destroy(other.gameObject);
         }
     }
