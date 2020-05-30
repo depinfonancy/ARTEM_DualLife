@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: dd454e01a080f42d5b3afd96489ac879
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8244366652877937281
+    second: RoueTourne_0
+  - first:
+      213: 351812811033320546
+    second: RoueTourne_1
+  - first:
+      213: 2997255538929965787
+    second: RoueTourne_2
+  - first:
+      213: 3563405658125073326
+    second: RoueTourne_3
+  - first:
+      213: -3530504278131244766
+    second: RoueTourne_4
+  - first:
+      213: -135125614426078050
+    second: RoueTourne_5
+  - first:
+      213: 8300303888122337238
+    second: RoueTourne_6
+  - first:
+      213: -191049438014477370
+    second: RoueTourne_7
+  - first:
+      213: -1705471424377236487
+    second: RoueTourne_8
+  - first:
+      213: -8380521692651463790
+    second: RoueTourne_9
+  - first:
+      213: -4068807095237536578
+    second: RoueTourne_10
+  - first:
+      213: -3509346118813849645
+    second: RoueTourne_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoueTourne_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594.6666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.4453808, y: 0.5312838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a9dde4acfd96270800000000000000
+      internalID: 8244366652877937281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 594.6666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.5446909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c921d33e3e1e400800000000000000
+      internalID: 351812811033320546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 594.6666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.5390137, y: 0.5312838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda1ef25804689920800000000000000
+      internalID: 2997255538929965787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_3
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 594.6666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.5624223, y: 0.51787645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab792bf092c37130800000000000000
+      internalID: 3563405658125073326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_4
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 594.6666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.50390166, y: 0.5134074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218dff7011210fc0800000000000000
+      internalID: -3530504278131244766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297.66666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.48439455, y: 0.4865927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94c31838ffef1ef0800000000000000
+      internalID: -135125614426078050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 297.66666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.48439452, y: 0.47765452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7535bc86a903370800000000000000
+      internalID: 8300303888122337238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 297.66666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.51170415, y: 0.45977813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbeb906c81495df0800000000000000
+      internalID: -191049438014477370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 297.66666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.53511274, y: 0.45977813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f35a6786c2f458e0800000000000000
+      internalID: -1705471424377236487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 297.66666
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.4414795, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bdd052ce762bb80800000000000000
+      internalID: -8380521692651463790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666565
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.4609863, y: 0.46424717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb417cc1181b887c0800000000000000
+      internalID: -4068807095237536578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoueTourne_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0.6666565
+        width: 340.6
+        height: 297.33334
+      alignment: 9
+      pivot: {x: 0.44928208, y: 0.4821235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7643a5c4c4c4fc0800000000000000
+      internalID: -3509346118813849645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

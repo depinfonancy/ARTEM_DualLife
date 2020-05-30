@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 2e3bc6a2dee32475bb22bdc2100ae294
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4113881830563245508
+    second: ArbreIdle_0
+  - first:
+      213: -5970071975971912615
+    second: ArbreIdle_1
+  - first:
+      213: -1588432905282498248
+    second: ArbreIdle_2
+  - first:
+      213: -5593954996841272523
+    second: ArbreIdle_3
+  - first:
+      213: -7458129200207100729
+    second: ArbreIdle_4
+  - first:
+      213: 1842087234879262714
+    second: ArbreIdle_5
+  - first:
+      213: -6585419793998832334
+    second: ArbreIdle_6
+  - first:
+      213: -7299569339004673842
+    second: ArbreIdle_7
+  - first:
+      213: -1049622585702857015
+    second: ArbreIdle_8
+  - first:
+      213: -8400048136044043762
+    second: ArbreIdle_9
+  - first:
+      213: -6606485088154131162
+    second: ArbreIdle_10
+  - first:
+      213: -9178203226423580404
+    second: ArbreIdle_11
+  - first:
+      213: -3610683794698109889
+    second: ArbreIdle_12
+  - first:
+      213: -6114000631108378489
+    second: ArbreIdle_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbreIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4430.667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.52885795, y: 0.13715619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c321859754e88e6c0800000000000000
+      internalID: -4113881830563245508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_1
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 4430.667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.54984546, y: 0.14930166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540eac2b2b062da0800000000000000
+      internalID: -5970071975971912615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_2
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 4430.667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.52623427, y: 0.14778347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831581340b0c4f9e0800000000000000
+      internalID: -1588432905282498248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_3
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 4430.667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.541975, y: 0.13867438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b21c381974e52b0800000000000000
+      internalID: -5593954996841272523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_4
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 4430.667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.53672814, y: 0.14474711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c400bcd1076f7890800000000000000
+      internalID: -7458129200207100729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2215.6667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.5393517, y: 0.14019278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff82409498609910800000000000000
+      internalID: 1842087234879262714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2215.6667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.54197514, y: 0.14322904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d9fd1a693eb94a0800000000000000
+      internalID: -6585419793998832334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_7
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2215.6667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.5445985, y: 0.15385632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec02b476c58b2ba90800000000000000
+      internalID: -7299569339004673842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_8
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 2215.6667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.53672814, y: 0.1386746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c644f6c1ddfe61f0800000000000000
+      internalID: -1049622585702857015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_9
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 2215.6667
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.55246854, y: 0.14322904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02a9e2c9b80d6b80800000000000000
+      internalID: -8400048136044043762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66674805
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.52885795, y: 0.13260195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62568a2a0dc0154a0800000000000000
+      internalID: -6606485088154131162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 0.66674805
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.5209875, y: 0.14019282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09ada43bc870a080800000000000000
+      internalID: -9178203226423580404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_12
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 0.66674805
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.5209875, y: 0.12652926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c72cc083644edc0800000000000000
+      internalID: -3610683794698109889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbreIdle_13
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 0.66674805
+        width: 1282
+        height: 2215.3333
+      alignment: 9
+      pivot: {x: 0.54722196, y: 0.12197474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7806542c1d4b62ba0800000000000000
+      internalID: -6114000631108378489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

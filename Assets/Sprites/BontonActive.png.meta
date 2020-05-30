@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: e5ec6d7e35aaf4c85be74f845d7e4093
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4892807352485863214
+    second: BontonActive_0
+  - first:
+      213: -4707544743376376624
+    second: BontonActive_1
+  - first:
+      213: -553391860925325361
+    second: BontonActive_2
+  - first:
+      213: -8513020735655902895
+    second: BontonActive_3
+  - first:
+      213: -4975835282914502662
+    second: BontonActive_4
+  - first:
+      213: 2722581768807196830
+    second: BontonActive_5
+  - first:
+      213: 4213915327521896661
+    second: BontonActive_6
+  - first:
+      213: -4115055375167077161
+    second: BontonActive_7
+  - first:
+      213: -1188250777821161084
+    second: BontonActive_8
+  - first:
+      213: 6474183345468643915
+    second: BontonActive_9
+  - first:
+      213: -251395970136072407
+    second: BontonActive_10
+  - first:
+      213: 2597834427676074050
+    second: BontonActive_11
+  - first:
+      213: -4350389052452264129
+    second: BontonActive_12
+  - first:
+      213: 6859525589228037400
+    second: BontonActive_13
+  - first:
+      213: 267471308874008629
+    second: BontonActive_14
+  - first:
+      213: 7621479758772152507
+    second: BontonActive_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BontonActive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1645.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.32604247, y: 0.55341804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d029a8d2a1491cb0800000000000000
+      internalID: -4892807352485863214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_1
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1645.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.32263157, y: 0.54674083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc2bce5ff07baeb0800000000000000
+      internalID: -4707544743376376624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_2
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1645.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.28852203, y: 0.55341804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf14f3d805f158f0800000000000000
+      internalID: -553391860925325361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_3
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 1645.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.31580964, y: 0.55341804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15102bdaebcabd980800000000000000
+      internalID: -8513020735655902895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1097.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.32263154, y: 0.6468999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7960d5c2842fab0800000000000000
+      internalID: -4975835282914502662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_5
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1097.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.30216596, y: 0.65357715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9825b1a1bd88c520800000000000000
+      internalID: 2722581768807196830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_6
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1097.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.28511122, y: 0.6669316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d834820aa5da7a30800000000000000
+      internalID: 4213915327521896661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_7
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 1097.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.30216596, y: 0.65357715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ca1450f264e6c0800000000000000
+      internalID: -4115055375167077161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.32604247, y: 0.6802865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48953e3963c728fe0800000000000000
+      internalID: -1188250777821161084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_9
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 549.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.3123987, y: 0.68696374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a9865737be8d950800000000000000
+      internalID: 6474183345468643915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_10
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 549.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.27487835, y: 0.693641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f131672bcd28cf0800000000000000
+      internalID: -251395970136072407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_11
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 549.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.27146754, y: 0.68696374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a9e6e5ac5d0420800000000000000
+      internalID: 2597834427676074050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.32604247, y: 0.7337047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37a5d5c43050a3c0800000000000000
+      internalID: -4350389052452264129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_13
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.2953441, y: 0.7670911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a3a91e2ee13f50800000000000000
+      internalID: 6859525589228037400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_14
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1.5
+        width: 1073.75
+        height: 548.5
+      alignment: 9
+      pivot: {x: 0.3089878, y: 0.7604138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384b010dbf36b300800000000000000
+      internalID: 267471308874008629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BontonActive_15
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 5
+        width: 1074
+        height: 548
+      alignment: 9
+      pivot: {x: 0.326083, y: 0.75396776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a174d57fe4c960800000000000000
+      internalID: 7621479758772152507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
