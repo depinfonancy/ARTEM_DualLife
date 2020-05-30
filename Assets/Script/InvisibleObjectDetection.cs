@@ -11,7 +11,7 @@ public class InvisibleObjectDetection : MonoBehaviour
     private float timeSpendWait = 0f;
     private bool created = false;
 
-    private string worldName;
+    private GameObject world;
     private GameObject target;
 
     public GameObject objectsLayout;
@@ -27,9 +27,9 @@ public class InvisibleObjectDetection : MonoBehaviour
     
     private void Start()
     {
-        worldName = gameObject.transform.parent.transform.parent.name;
+        GameObject world = GameObject.Find("NatureWorld");
 
-        if (worldName == "NatureWorld")
+        if (world != null)
         {
             target = GameObject.Find("IndustrialSpirit");
         }
@@ -77,7 +77,7 @@ public class InvisibleObjectDetection : MonoBehaviour
         {
             if (dectectInBothWorld)
             {
-                if(worldName == "NatureWorld")
+                if(world != null)
                 {
                     int ind = int.Parse(transform.name.Substring(15));
                     Transform gm = objectsLayout.transform.GetChild(ind);

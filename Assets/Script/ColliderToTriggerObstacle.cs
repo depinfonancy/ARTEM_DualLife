@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectUnlock : MonoBehaviour
+public class ColliderToTriggerObstacle: MonoBehaviour
 {
 
-    public GameObject key;
+    public string[] animation_order = { "isDisappering" };
 
     private Collider2D m_collider;
     private Animator m_animator;
@@ -17,16 +17,13 @@ public class ObjectUnlock : MonoBehaviour
         m_animator = GetComponent<Animator>();
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    public void Action(string act)
     {
-        if (other.gameObject.layer == 8)
+        if(act == "open")
         {
-            PlayerControler player = other.gameObject.GetComponent<PlayerControler>();
-            
-            if(player.Have(key))
+            foreach(string cmd in animation_order)
             {
-                m_animator.SetBool("isEating", true);
-                m_animator.SetBool("isDisappearing", true);
+                m_animator.SetBool(cmd, true);
             }
         }
     }

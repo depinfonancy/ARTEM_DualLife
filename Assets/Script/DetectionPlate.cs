@@ -28,7 +28,7 @@ public class DetectionPlate : MonoBehaviour
                 //m_animator.SetBool("isActivate", true);
                 for(int i = 0; i < actionnable.Length; i++)
                 {
-                    actionnable[i].GetComponent<PlateformTranslation>().Action("open");
+                    actionnable[i].GetComponent<ColliderToTriggerObstacle>().Action("open");
                 }
 
                 allActionsDone = true;

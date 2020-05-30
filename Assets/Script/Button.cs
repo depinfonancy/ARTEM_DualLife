@@ -33,7 +33,6 @@ public class Button : MonoBehaviour
     {
         if (Input.GetButton(worldName + "Interaction"))
         {
-            Debug.Log("hey");
             canInteract = true;
         }
         else
