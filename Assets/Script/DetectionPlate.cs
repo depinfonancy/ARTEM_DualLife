@@ -28,7 +28,7 @@ public class DetectionPlate : MonoBehaviour
             if(self.position.x-1 < box.position.x && self.position.x + 1 > box.position.x)
             {
                 m_animator.SetBool("IsActived", true);
-                m_collider2D.offset = new Vector2(m_collider2D.offset.x, -0.6f);
+                m_collider2D.offset = new Vector2(m_collider2D.offset.x, -0.7f);
                 m_collider2D.size = new Vector2(m_collider2D.size.x, 1.32f);
 
                 for (int i = 0; i < actionnable.Length; i++)
