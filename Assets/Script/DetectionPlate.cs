@@ -6,6 +6,7 @@ public class DetectionPlate : MonoBehaviour
 {
 
     private Animator m_animator;
+    private BoxCollider2D m_collider2D;
 
     public GameObject[] actionnable;
 
@@ -15,6 +16,7 @@ public class DetectionPlate : MonoBehaviour
     void Start()
     {
         m_animator = GetComponent<Animator>();    
+        m_collider2D = GetComponent<BoxCollider2D>();
     }
 
     private void OnCollisionStay2D(Collision2D other)
@@ -25,8 +27,11 @@ public class DetectionPlate : MonoBehaviour
             Transform box = other.gameObject.transform;
             if(self.position.x-1 < box.position.x && self.position.x + 1 > box.position.x)
             {
-                //m_animator.SetBool("isActivate", true);
-                for(int i = 0; i < actionnable.Length; i++)
+                m_animator.SetBool("IsActived", true);
+                m_collider2D.offset = new Vector2(m_collider2D.offset.x, -0.7f);
+                m_collider2D.size = new Vector2(m_collider2D.size.x, 1.32f);
+
+                for (int i = 0; i < actionnable.Length; i++)
                 {
                     actionnable[i].GetComponent<ColliderToTriggerObstacle>().Action("open");
                 }

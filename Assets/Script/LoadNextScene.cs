@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadNextScene : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class LoadNextScene : MonoBehaviour
     {
         if(humanPlayer && spiritPlayer)
         {
-            Debug.Log("Load Scene : SceneName (" + sceneName + " )");
+            SceneManager.LoadScene(sceneName);   
         }
     }
 

@@ -45,7 +45,7 @@ public class Button : MonoBehaviour
     {
         if (other.gameObject.layer == 8 && canInteract)
         {
-            //m_animator.SetBool("isActivate", true);
+            m_animator.SetBool("IsTurning", true);
             if (!allActionsDone)
             {
                 for (int i = 0; i < actionnable.Length; i++)
