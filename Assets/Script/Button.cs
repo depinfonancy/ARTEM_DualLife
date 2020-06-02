@@ -31,7 +31,18 @@ public class Button : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton(worldName + "Interaction"))
+        Transform world = transform.Find("IndustrialWorld");
+
+        if (world != null)
+        {
+            worldName = "Industry";
+        }
+        else
+        {
+            worldName = "Nature";
+        }
+
+        if (Input.GetButton("IndustryInteraction") || Input.GetButton("NatureInteraction"))
         {
             canInteract = true;
         }
