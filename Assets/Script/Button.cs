@@ -9,29 +9,75 @@ public class Button : MonoBehaviour
     public GameObject[] actionnable;
 
     private bool allActionsDone = false;
-    private bool canInteract = false;
+    private bool buttonDown = false;
+    private bool inZone = false;
     private string worldName;
 
 
     void Start()
     {
         m_animator = GetComponent<Animator>();
-
-        Transform world = transform.Find("IndustrialWorld");
-
-        if (world != null)
-        {
-            worldName = "Industry";
-        }
-        else
-        {
-            worldName = "Nature";
-        }
     }
 
     private void Update()
     {
-        Transform world = transform.Find("IndustrialWorld");
+        GetWorld();
+
+        if (Input.GetButton(worldName + "Interaction"))
+        {
+            buttonDown = true;
+        }
+        else
+        {
+            buttonDown = false;
+        }
+
+        if (buttonDown && inZone)
+        {
+            RunActions();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 8)
+        {
+            inZone = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 8)
+        {
+            inZone = false;
+        }
+    }
+
+    private void RunActions()
+    {
+        m_animator.SetBool("IsTurning", true);
+        if (!allActionsDone)
+        {
+            for (int i = 0; i < actionnable.Length; i++)
+            {
+                actionnable[i].GetComponent<PlateformTranslation>().Action("open");
+            }
+            allActionsDone = true;
+        }
+        else
+        {
+            for (int i = 0; i < actionnable.Length; i++)
+            {
+                actionnable[i].GetComponent<PlateformTranslation>().Action("close");
+            }
+            allActionsDone = false;
+        }
+    }
+
+    private void GetWorld()
+    {
+        GameObject world = GameObject.Find("IndustrialWorld");
 
         if (world != null)
         {
@@ -40,38 +86,6 @@ public class Button : MonoBehaviour
         else
         {
             worldName = "Nature";
-        }
-
-        if (Input.GetButton("IndustryInteraction") || Input.GetButton("NatureInteraction"))
-        {
-            canInteract = true;
-        }
-        else
-        {
-            canInteract = false;
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.layer == 8 && canInteract)
-        {
-            m_animator.SetBool("IsTurning", true);
-            if (!allActionsDone)
-            {
-                for (int i = 0; i < actionnable.Length; i++)
-                {
-                    actionnable[i].GetComponent<PlateformTranslation>().Action("open");
-                }
-                allActionsDone = true;
-            } else
-            {
-                for (int i = 0; i < actionnable.Length; i++)
-                {
-                    actionnable[i].GetComponent<PlateformTranslation>().Action("close");
-                }
-                allActionsDone = false;
-            }
         }
     }
 }
